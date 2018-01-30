@@ -6,7 +6,7 @@ import slack from './slack';
 let slackToken = require('./slack.json');
 let s = new slack(slackToken.token);
 s.getStatus().then((res) => {
-    console.log(JSON.stringify(res, null, 1));
+    console.log(JSON.stringify(res, null, 2));
 })
 
 
