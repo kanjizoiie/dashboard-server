@@ -3,6 +3,7 @@
 *.json
 *.sql
 *.sqlite
+*.sqlite-journal
 *.map
 
 !package.json
