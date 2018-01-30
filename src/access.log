@@ -1,0 +1,1 @@
+::1 - - [30/Jan/2018:14:49:55 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:1337/api/data" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
