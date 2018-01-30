@@ -1,9 +1,11 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
-**/*.json
-**/*.sql
-**/*.sqlite
-**/*.map
+*.json
+*.sql
+*.sqlite
+*.map
+
+!package.json
 
 # dependencies
 /node_modules
