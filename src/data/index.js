@@ -9,7 +9,7 @@ let weather = '';
 
 router.use('/server', require('./server'));
 router.use('/news', require('./news'));
-
+router.use('/status', require('./status'));
 
 function fetchData() {
     axios.get('http://api.openweathermap.org/data/2.5/weather?q=' + options.weather.city + '&APPID=' + options.weather.key + '&units=' + options.weather.units)

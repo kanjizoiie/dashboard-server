@@ -9,13 +9,11 @@ class Slack {
 
     getUserInfo(member) {
         return this.web.users.info(member).then((res) => {
-            if (res.user.real_name) {
-                return ({
-                    real_name: res.user.real_name,
-                    emoji: res.user.profile.status_emoji,
-                    text: res.user.profile.status_text
-                });
-            }
+            return ({
+                real_name: res.user.real_name,
+                emoji: res.user.profile.status_emoji,
+                text: res.user.profile.status_text
+            });
         })
         .catch(console.error);
     }
