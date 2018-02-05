@@ -3,9 +3,3 @@ node_js: '8.6.0'
 cache:
   directories:
   - "$HOME/.npm"
-after_success:
-  - eval "$(ssh-agent -s)" #start the ssh agent
-  - chmod 600 .travis/deploy_key.pem # this key should have push access
-  - ssh-add .travis/deploy_key.pem
-  - git remote add deploy https://github.com/kanjizoiie/dashboard-server.git
-  - git push deploy
