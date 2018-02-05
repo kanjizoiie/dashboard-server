@@ -7,7 +7,7 @@ let slackToken = require('./slack.json');
 router.get('/', (req, res) => {
     let slackClient = new Slack(slackToken.token);
     slackClient.getStatus().then((result) => {
-        return result.filter(elem => elem);
+        return result.filter(elem => { return elem.real_name });
     }).then((result) => {
         res.json({
             status: result
