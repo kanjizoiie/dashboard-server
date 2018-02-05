@@ -50,6 +50,7 @@ class Google {
     authURL() {
         return this.url;
     }
+
     auth(code) {
         return new Promise((resolve, reject) => {
             this.oauth2Client.getToken(code, function (err, tok) {
@@ -64,3 +65,5 @@ class Google {
         }).catch((error) => console.log(error));
     }
 }
+
+export default Google;

@@ -6,6 +6,9 @@ import sqlite from 'sqlite';
 import fileSystem from 'fs';
 import axios from 'axios';
 
+import goog from './google';
+import nagi from './nagios';
+
 //Json files
 let googleOAuth2 = require('./googleAccount.json');
 let tokens = require('./google.json');
@@ -408,13 +411,13 @@ router.get('/:id/graph', (req, res, next) => {
             }),
             db.all('SELECT * FROM cpu WHERE id = ? ORDER BY insertionDate DESC LIMIT 20', req.params.id).then((rows) => {
                 rows.forEach((row) => {
-                    server.cpu.push(row.one);
+                    server.cpu.push(row.one * 100);
                     server.time.push(new Date(row.insertionDate));
                 });
             }),
             db.all('SELECT * FROM memory WHERE id = ? ORDER BY insertionDate DESC LIMIT 20', req.params.id).then((rows) => {
                 rows.forEach((row) => {
-                    server.mem.push(row.memory);
+                    server.mem.push(row.memory * 100);
                 });
             })
         ]).then(() => {

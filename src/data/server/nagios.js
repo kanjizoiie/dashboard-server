@@ -35,3 +35,5 @@ class Nagios {
         })
     }
 }
+
+export default Nagios;
