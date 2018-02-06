@@ -17,7 +17,7 @@ class DataGetter {
         });
     }
 
-    getUsers(server) {
+    getUsers(serverId) {
         dbPromise.then((db) => {
             return db.get('SELECT current FROM users WHERE id = ? ORDER BY insertionDate DESC LIMIT 1', server)
             .then((value) => {
@@ -31,7 +31,7 @@ class DataGetter {
         })
     }
 
-    getGraphs(server) {
+    getGraphs(serverId) {
         let traffic =  { time: [], in: [], out: [] };
         let server =  { time: [], cpu: [], mem: [] };
         return dbPromise.then((db) => {
