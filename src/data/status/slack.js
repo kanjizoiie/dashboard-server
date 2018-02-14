@@ -1,22 +1,33 @@
 import { WebClient } from '@slack/client';
-
 class Slack {
     constructor(token) {
         this.token = token;
-        this.web = new WebClient(this.token);
+        this.web = new WebClient(this.token, { 
+            retryConfig: {
+                retries: 0
+            }, 
+            maxRequestConcurrency: Infinity 
+        });
     }
 
 
     getUserInfo(member) {
-        return this.web.users.info(member).then((res) => {
-            return ({
-                real_name: res.user.real_name,
-                emoji: res.user.profile.status_emoji,
-                text: res.user.profile.status_text
-            });
+        return this.web.users.info(member)
+        .then((info) => {
+            return this.web.users.getPresence(member)
+            .then((presence) => {
+                return ({
+                    real_name: info.user.real_name,
+                    emoji: info.user.profile.status_emoji,
+                    text: info.user.profile.status_text,
+                    presence: presence.presence
+                });
+            })
+            .catch(console.error);
         })
         .catch(console.error);
     }
+
     /**
      * 
      * Get the status of all the coworkers.
