@@ -5,6 +5,7 @@
 *.sqlite
 *.sqlite-journal
 *.map
+*.log
 
 !package.json
 

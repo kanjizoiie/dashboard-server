@@ -1,17 +1,26 @@
 import google from 'googleapis';
-let tokens = require('./google.json');
+import path from 'path';
 
+let tokens = require('../../json/google.json');
+let googleOAuth2 = require('../../json/googleAccount.json')
 class Google {
+    static instance = null;
     constructor() {
-        //Create instance of oauth2
+        if (!this.instance) {
+            this.instance = this;
+        }
+
+        //Create instance of googles oauth2client
         this.OAuth2 = google.auth.OAuth2;
+
         //Create instance of analytics api
         this.analytics = google.analyticsreporting('v4');
+
         //Create oauth2 client
         this.oauth2Client = new this.OAuth2(
-            this.googleOAuth2.installed.client_id,
-            this.googleOAuth2.installed.client_secret,
-            this.googleOAuth2.installed.redirect_uris[1]
+            googleOAuth2.installed.client_id,
+            googleOAuth2.installed.client_secret,
+            googleOAuth2.installed.redirect_uris[1]
         );
         //Set the clients credentials.
         this.oauth2Client.credentials = tokens;
@@ -19,6 +28,7 @@ class Google {
         this.url = this.oauth2Client.generateAuthUrl({
             scope: 'https://www.googleapis.com/auth/analytics.readonly'
         });
+        return this.instance;
     }
     /**
      * Fetches Google analytics data from the authorized google account.
@@ -47,12 +57,13 @@ class Google {
             }
         });
     }
+    
     authURL() {
         return this.url;
     }
 
     auth(code) {
-        return new Promise((resolve, reject) => {
+        new Promise((resolve, reject) => {
             this.oauth2Client.getToken(code, function (err, tok) {
                 if(tok !== null)
                     resolve(tok);
@@ -62,6 +73,12 @@ class Google {
         })
         .then((result) => {
             this.oauth2Client.credentials = result;
+            fileSystem.writeFile(__dirname + '../../json/google.json', JSON.stringify(result, null, 1), { flag: fileSystem.O_TRUNC }, (err) => {
+                if(err)
+                    console.log('Token writing error: ' + err);
+                else
+                    console.log('Saved the new access token!');
+            });
         }).catch((error) => console.log(error));
     }
 }

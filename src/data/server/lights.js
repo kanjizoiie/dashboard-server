@@ -1,11 +1,38 @@
 import axios from 'axios';
-
-
 class Lights {
     constructor(username, bridgeIP) {
         this.username = username;
         this.bridgeIP = bridgeIP;
         this.findLights();
+    }
+
+    static GREEN = {
+        hue: 25500,
+        sat: 25,
+        bright: 254
+    }
+
+    static RED = {
+        hue: 0,
+        sat: 25,
+        bright: 254
+    }
+
+    static BLUE = {
+        hue: 46920,
+        sat: 25,
+        bright: 254
+    }
+    static BLUE = {
+        hue: 46920,
+        sat: 25,
+        bright: 254
+    }
+
+    static BLUE = {
+        hue: 12750,
+        sat: 25,
+        bright: 254
     }
 
     /**
@@ -16,6 +43,16 @@ class Lights {
     findLights() {
         axios.get(this.bridgeIP + '/api/' + this.username + '/lights').then((response) => {
             this.lights = response.data;
+        }).catch((reason) => {
+            console.log(reason.code);
+        });
+        return this.lights;
+    }
+
+    findBridge() {
+        axios.get('https://www.meethue.com/api/nupnp').then((response) => {
+            console.log(response.data)
+            this.bridgeIP = response.data;
         }).catch((reason) => {
             console.log(reason.code);
         });
@@ -45,8 +82,22 @@ class Lights {
             }, interval));
         return ret;
     }
-    alertLights() {
 
+    /**
+     * 
+     * 
+     * @param {any} light 
+     * @param {any} putObject 
+     * @memberof Lights
+     */
+    setLight(light, putObject) {
+        axios.put(this.bridgeIP + '/api/' + this.username + '/lights/' + light + '/state', {
+            putObject
+        }).catch((reason) => {
+            return reason;
+        }).then(() => {
+            ret = true;
+        });
     }
 }
 

@@ -1,9 +1,10 @@
 import express from 'express';
 import moment from 'moment';
 import axios from 'axios';
+import path from 'path';
 
 
-let options = require('../options.json');
+let options = require(path.join(__dirname, '../json/options.json'));
 let router = express.Router();
 let weather = '';
 

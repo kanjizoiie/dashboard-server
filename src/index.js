@@ -9,7 +9,7 @@ const SERVER_PORT = 1337;
 const router = express.Router();
 
 // create a write stream (in append mode)
-let accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'), {
+let accessLogStream = fs.createWriteStream(path.join(__dirname, '/logs/access.log'), {
     flags: 'a'
 });
 

@@ -1,10 +1,14 @@
 import axios from 'axios';
-let auth = require('./nagios.json');
+import path from 'path';
+let auth = require('../../json/nagios.json');
 class Nagios {
-    constructor(serverHost, name, description) {
+    static instance = null;
+    constructor(serverHost) {
+        if (!this.instance) {
+            this.instance = this;
+        }
         this.server = serverHost;
-        this.name = name;
-        this.description = description;
+        return this.instance;
     }
     
     /**
@@ -33,6 +37,57 @@ class Nagios {
                 reject(error)
             }
         })
+    }
+
+    getNetworkThroughput(serverId) {
+        return dbPromise.then((db) => {
+            return db.get('SELECT * FROM servers WHERE (id = ?)', serverId)
+            .then((row) => {
+                return fetchNagiosData(row.nagios, "Network+Throughput")
+                .then((response) => {
+                    let res = response.split(' ');
+                    return ({
+                        in: Number(res[4]),
+                        out: Number(res[2])
+                    });
+                })
+                .catch((reason) => console.log(reason));
+            });
+        });
+    }
+    
+    getCpuLoad(serverId) {
+        return dbPromise.then((db) => {
+            return db.get('SELECT * FROM servers WHERE (id = ?)', serverId)
+            .then((row) => {
+                return fetchNagiosData(row.nagios, "CPU+Load")
+                .then((response) => {
+                    let res = response.replace(/,/g, '');
+                    res = res.split(' ');
+                    return ({
+                        one: Number(res[4]),
+                        five: Number(res[5]),
+                        fifteen: Number(res[6])
+                    });
+                })
+                .catch((reason) => console.log(reason));
+            });
+        });
+    }
+    
+    getMemoryLoad(serverId) {
+        return dbPromise.then((db) => {
+            return db.get('SELECT * FROM servers WHERE (id = ?)', serverId)
+            .then((row) => {
+                return fetchNagiosData(row.nagios, "Memory")
+                .then((response) => {
+                    let res = response.replace(/%/g, '');
+                    res = res.split(' ');
+                    return (Number(res[3] / 100));
+                })
+                .catch((reason) => console.log(reason));
+            });
+        });
     }
 }
 
