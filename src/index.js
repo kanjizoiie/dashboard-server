@@ -2,8 +2,6 @@ import express from 'express';
 import morgan from 'morgan';
 import fs from 'fs';
 import path from 'path';
-
-
 const app = express();
 const SERVER_PORT = 1337;
 const router = express.Router();
@@ -29,6 +27,7 @@ app.use(function (req, res, next) {
 
 // setup the routes in the router
 router.use('/data', require('./data'));
+router.use('/lights', require('./lights'));
 
 // tell the app to use the router
 app.use('/api', router);

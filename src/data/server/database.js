@@ -1,7 +1,6 @@
 import sqlite from 'sqlite';
 
 class Database {
-    static instance = null;
     constructor() {
         if (!this.instance) {
             this.instance = this;
@@ -9,7 +8,8 @@ class Database {
         this.dbPromise = sqlite.open('./src/database/database.sqlite', { Promise });
         return this.instance;   
     }
-    async getDatabase() {
+
+    getDatabase() {
         return this.dbPromise;
     }
 }

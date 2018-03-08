@@ -1,5 +1,7 @@
 import axios from 'axios';
 import path from 'path';
+import database from './database';
+
 let auth = require('../../json/nagios.json');
 class Nagios {
     static instance = null;
@@ -8,6 +10,7 @@ class Nagios {
             this.instance = this;
         }
         this.server = serverHost;
+        this.database = new database();
         return this.instance;
     }
     
@@ -40,7 +43,7 @@ class Nagios {
     }
 
     getNetworkThroughput(serverId) {
-        return dbPromise.then((db) => {
+        return this.database.getDatabase().then((db) => {
             return db.get('SELECT * FROM servers WHERE (id = ?)', serverId)
             .then((row) => {
                 return fetchNagiosData(row.nagios, "Network+Throughput")
@@ -57,7 +60,7 @@ class Nagios {
     }
     
     getCpuLoad(serverId) {
-        return dbPromise.then((db) => {
+        return this.database.getDatabase().then((db) => {
             return db.get('SELECT * FROM servers WHERE (id = ?)', serverId)
             .then((row) => {
                 return fetchNagiosData(row.nagios, "CPU+Load")
@@ -76,7 +79,7 @@ class Nagios {
     }
     
     getMemoryLoad(serverId) {
-        return dbPromise.then((db) => {
+        return this.database.getDatabase().then((db) => {
             return db.get('SELECT * FROM servers WHERE (id = ?)', serverId)
             .then((row) => {
                 return fetchNagiosData(row.nagios, "Memory")

@@ -11,37 +11,55 @@ class Slack {
     }
 
 
+    getUserPresence(member) {
+        return this.web.users.getPresence(member).then((res) => {
+            return res;
+        }).catch(console.error);
+    }
+
     getUserInfo(member) {
-        return this.web.users.info(member)
-        .then((info) => {
-            return this.web.users.getPresence(member)
-            .then((presence) => {
-                return ({
-                    real_name: info.user.real_name,
-                    emoji: info.user.profile.status_emoji,
-                    text: info.user.profile.status_text,
-                    presence: presence.presence
-                });
-            })
-            .catch(console.error);
-        })
-        .catch(console.error);
+        return this.web.users.info(member).then((res) => {
+            return res;
+        }).catch(console.error);
     }
 
     /**
      * 
-     * Get the status of all the coworkers.
+     * Get the status of everyone in the channel
+     * @param channel the channel where it will look!
      * @memberof Slack
      */
-    getStatus() {
-        return this.web.groups.list().then((res) => {
+    getStatuses(channel) {
+        return this.web.conversations.members(channel).then((res) => {
             let promises = []
-            res.groups[0].members.forEach((member) => { 
-                promises.push(this.getUserInfo(member));
+            res.members.forEach((member) => {
+                promises.push(
+                    Promise.all([
+                        this.getUserInfo(member),
+                        this.getUserPresence(member)
+                    ])
+                );
             });
-            return Promise.all(promises);
+            return Promise.all(promises)
+                .then((promises) => {
+                    return promises.filter((promise) => {
+                        return (!promise[0].is_bot || !promise[0].deleted);
+                    });
+                })
+                .then((promises) => {
+                    let active = promises.filter((promise) => {
+                        return promise[1].presence == 'active';
+                    });
+                    let away = promises.filter((promise) => {
+                        return promise[1].presence == 'away';
+                    });
+                    return ({
+                        active: active,
+                        away: away
+                    });
+                });
         })
-        .catch(console.error);
+            .catch(console.error);
     }
 }
 export default Slack;

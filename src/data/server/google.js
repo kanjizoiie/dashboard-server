@@ -1,5 +1,6 @@
 import google from 'googleapis';
 import path from 'path';
+import fileSystem from 'fs';
 
 let tokens = require('../../json/google.json');
 let googleOAuth2 = require('../../json/googleAccount.json')
@@ -65,6 +66,7 @@ class Google {
     auth(code) {
         new Promise((resolve, reject) => {
             this.oauth2Client.getToken(code, function (err, tok) {
+                console.log(tok)
                 if(tok !== null)
                     resolve(tok);
                 if(err !== null)
@@ -73,7 +75,7 @@ class Google {
         })
         .then((result) => {
             this.oauth2Client.credentials = result;
-            fileSystem.writeFile(__dirname + '../../json/google.json', JSON.stringify(result, null, 1), { flag: fileSystem.O_TRUNC }, (err) => {
+            fileSystem.writeFile(__dirname + 'src/json/google.json', JSON.stringify(result, null, 1), { flag: fileSystem.O_TRUNC }, (err) => {
                 if(err)
                     console.log('Token writing error: ' + err);
                 else

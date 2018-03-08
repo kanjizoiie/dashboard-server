@@ -1,0 +1,3889 @@
+├─ @slack/client@3.16.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/slackapi/node-slack-sdk
+│  ├─ licenseUrl: https://github.com/slackapi/node-slack-sdk/raw/master/LICENSE
+│  └─ parents: server
+├─ abbrev@1.1.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/abbrev-js
+│  ├─ licenseUrl: https://github.com/isaacs/abbrev-js/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ accepts@1.3.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/accepts
+│  ├─ licenseUrl: https://github.com/jshttp/accepts/raw/master/LICENSE
+│  └─ parents: server
+├─ acorn-jsx@3.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/RReverser/acorn-jsx
+│  ├─ licenseUrl: https://github.com/RReverser/acorn-jsx/raw/master/LICENSE
+│  └─ parents: server
+├─ acorn@3.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ternjs/acorn
+│  ├─ licenseUrl: https://github.com/ternjs/acorn/raw/master/LICENSE
+│  └─ parents: acorn-jsx:server
+├─ acorn@5.5.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/acornjs/acorn
+│  ├─ licenseUrl: https://github.com/acornjs/acorn/raw/master/LICENSE
+│  └─ parents: server
+├─ agent-base@2.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/TooTallNate/node-agent-base
+│  ├─ licenseUrl: https://github.com/TooTallNate/node-agent-base
+│  └─ parents: server
+├─ ajv-keywords@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/epoberezkin/ajv-keywords
+│  ├─ licenseUrl: https://github.com/epoberezkin/ajv-keywords/raw/master/LICENSE
+│  └─ parents: server
+├─ ajv@4.11.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/epoberezkin/ajv
+│  ├─ licenseUrl: https://github.com/epoberezkin/ajv/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ ajv@5.5.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/epoberezkin/ajv
+│  ├─ licenseUrl: https://github.com/epoberezkin/ajv/raw/master/LICENSE
+│  └─ parents: server
+├─ ajv@6.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/epoberezkin/ajv
+│  ├─ licenseUrl: https://github.com/epoberezkin/ajv/raw/master/LICENSE
+│  └─ parents: table:server
+├─ ansi-align@2.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/nexdrew/ansi-align
+│  ├─ licenseUrl: https://github.com/nexdrew/ansi-align/raw/master/LICENSE
+│  └─ parents: server
+├─ ansi-colors@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/doowb/ansi-colors
+│  ├─ licenseUrl: https://github.com/doowb/ansi-colors/raw/master/LICENSE
+│  └─ parents: server
+├─ ansi-cyan@0.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/ansi-cyan
+│  ├─ licenseUrl: https://github.com/jonschlinkert/ansi-cyan/raw/master/LICENSE
+│  └─ parents: server
+├─ ansi-escapes@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/ansi-escapes
+│  ├─ licenseUrl: https://github.com/sindresorhus/ansi-escapes/raw/master/license
+│  └─ parents: server
+├─ ansi-gray@0.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/ansi-gray
+│  ├─ licenseUrl: https://github.com/jonschlinkert/ansi-gray/raw/master/LICENSE
+│  └─ parents: server
+├─ ansi-red@0.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/ansi-red
+│  ├─ licenseUrl: https://github.com/jonschlinkert/ansi-red/raw/master/LICENSE
+│  └─ parents: server
+├─ ansi-regex@0.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/ansi-regex
+│  ├─ licenseUrl: https://github.com/sindresorhus/ansi-regex
+│  └─ parents: license-checker:server
+├─ ansi-regex@2.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/ansi-regex
+│  ├─ licenseUrl: https://github.com/chalk/ansi-regex/raw/master/license
+│  └─ parents: has-ansi:server
+├─ ansi-regex@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/ansi-regex
+│  ├─ licenseUrl: https://github.com/chalk/ansi-regex/raw/master/license
+│  └─ parents: server
+├─ ansi-styles@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/ansi-styles
+│  ├─ licenseUrl: https://github.com/sindresorhus/ansi-styles
+│  └─ parents: license-checker:server
+├─ ansi-styles@2.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/ansi-styles
+│  ├─ licenseUrl: https://github.com/chalk/ansi-styles/raw/master/license
+│  └─ parents: @slack/client:server
+├─ ansi-styles@3.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/ansi-styles
+│  ├─ licenseUrl: https://github.com/chalk/ansi-styles/raw/master/license
+│  └─ parents: server
+├─ ansi-wrap@0.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/ansi-wrap
+│  ├─ licenseUrl: https://github.com/jonschlinkert/ansi-wrap/blob/master/LICENSE
+│  └─ parents: server
+├─ anymatch@1.3.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/es128/anymatch
+│  ├─ licenseUrl: https://github.com/es128/anymatch/raw/master/LICENSE
+│  └─ parents: server
+├─ anymatch@2.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/micromatch/anymatch
+│  ├─ licenseUrl: https://github.com/micromatch/anymatch/raw/master/LICENSE
+│  └─ parents: nodemon:server
+├─ aproba@1.2.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/iarna/aproba
+│  ├─ licenseUrl: https://github.com/iarna/aproba/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ archy@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/node-archy
+│  ├─ licenseUrl: https://github.com/substack/node-archy/raw/master/LICENSE
+│  └─ parents: server
+├─ are-we-there-yet@1.1.4
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/iarna/are-we-there-yet
+│  ├─ licenseUrl: https://github.com/iarna/are-we-there-yet/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ argparse@1.0.10
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/nodeca/argparse
+│  ├─ licenseUrl: https://github.com/nodeca/argparse/raw/master/LICENSE
+│  └─ parents: server
+├─ arr-diff@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/arr-diff
+│  ├─ licenseUrl: https://github.com/jonschlinkert/arr-diff/raw/master/LICENSE
+│  └─ parents: plugin-error:server
+├─ arr-diff@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/arr-diff
+│  ├─ licenseUrl: https://github.com/jonschlinkert/arr-diff/raw/master/LICENSE
+│  └─ parents: server
+├─ arr-diff@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/arr-diff
+│  ├─ licenseUrl: https://github.com/jonschlinkert/arr-diff/raw/master/LICENSE
+│  └─ parents: liftoff:server
+├─ arr-flatten@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/arr-flatten
+│  ├─ licenseUrl: https://github.com/jonschlinkert/arr-flatten/raw/master/LICENSE
+│  └─ parents: server
+├─ arr-union@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/arr-union
+│  ├─ licenseUrl: https://github.com/jonschlinkert/arr-union/raw/master/LICENSE
+│  └─ parents: plugin-error:server
+├─ arr-union@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/arr-union
+│  ├─ licenseUrl: https://github.com/jonschlinkert/arr-union/raw/master/LICENSE
+│  └─ parents: server
+├─ array-differ@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/array-differ
+│  ├─ licenseUrl: https://github.com/sindresorhus/array-differ
+│  └─ parents: server
+├─ array-each@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/array-each
+│  ├─ licenseUrl: https://github.com/jonschlinkert/array-each/raw/master/LICENSE
+│  └─ parents: server
+├─ array-flatten@1.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/blakeembrey/array-flatten
+│  ├─ licenseUrl: https://github.com/blakeembrey/array-flatten/raw/master/LICENSE
+│  └─ parents: server
+├─ array-slice@0.2.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/array-slice
+│  ├─ licenseUrl: https://github.com/jonschlinkert/array-slice/blob/master/LICENSE
+│  └─ parents: plugin-error:server
+├─ array-slice@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/array-slice
+│  ├─ licenseUrl: https://github.com/jonschlinkert/array-slice/raw/master/LICENSE
+│  └─ parents: server
+├─ array-union@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/array-union
+│  ├─ licenseUrl: https://github.com/sindresorhus/array-union/raw/master/license
+│  └─ parents: server
+├─ array-uniq@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/array-uniq
+│  ├─ licenseUrl: https://github.com/sindresorhus/array-uniq/raw/master/license
+│  └─ parents: server
+├─ array-unique@0.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/array-unique
+│  ├─ licenseUrl: https://github.com/jonschlinkert/array-unique/blob/master/LICENSE
+│  └─ parents: server
+├─ array-unique@0.3.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/array-unique
+│  ├─ licenseUrl: https://github.com/jonschlinkert/array-unique/raw/master/LICENSE
+│  └─ parents: liftoff:server
+├─ arrify@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/arrify
+│  ├─ licenseUrl: https://github.com/sindresorhus/arrify/raw/master/license
+│  └─ parents: server
+├─ asap@2.0.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/kriskowal/asap
+│  ├─ licenseUrl: https://github.com/kriskowal/asap/raw/master/LICENSE.md
+│  └─ parents: server
+├─ asn1@0.2.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mcavage/node-asn1
+│  ├─ licenseUrl: https://github.com/mcavage/node-asn1/raw/master/LICENSE
+│  └─ parents: server
+├─ assert-plus@0.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mcavage/node-assert-plus
+│  ├─ licenseUrl: https://github.com/mcavage/node-assert-plus
+│  └─ parents: @slack/client:server
+├─ assert-plus@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mcavage/node-assert-plus
+│  ├─ licenseUrl: https://github.com/mcavage/node-assert-plus
+│  └─ parents: server
+├─ assign-symbols@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/assign-symbols
+│  ├─ licenseUrl: https://github.com/jonschlinkert/assign-symbols/raw/master/LICENSE
+│  └─ parents: server
+├─ async-each@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/paulmillr/async-each
+│  ├─ licenseUrl: https://github.com/paulmillr/async-each
+│  └─ parents: server
+├─ async@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/caolan/async
+│  ├─ licenseUrl: https://github.com/caolan/async/raw/master/LICENSE
+│  └─ parents: winston:server
+├─ async@1.5.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/caolan/async
+│  ├─ licenseUrl: https://github.com/caolan/async/raw/master/LICENSE
+│  └─ parents: @slack/client:server
+├─ async@2.6.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/caolan/async
+│  ├─ licenseUrl: https://github.com/caolan/async/raw/master/LICENSE
+│  └─ parents: server
+├─ asynckit@0.4.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/alexindigo/asynckit
+│  ├─ licenseUrl: https://github.com/alexindigo/asynckit/raw/master/LICENSE
+│  └─ parents: server
+├─ atob@2.0.3
+│  ├─ licenses: (MIT OR Apache-2.0)
+│  ├─ repository: https://github.com/coolaj86/node-browser-compat/atob
+│  ├─ licenseUrl: https://github.com/coolaj86/node-browser-compat/atob/raw/master/LICENSE
+│  └─ parents: server
+├─ aws-sign2@0.6.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/mikeal/aws-sign
+│  ├─ licenseUrl: https://github.com/mikeal/aws-sign/raw/master/LICENSE
+│  └─ parents: @slack/client:server
+├─ aws-sign2@0.7.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/mikeal/aws-sign
+│  ├─ licenseUrl: https://github.com/mikeal/aws-sign/raw/master/LICENSE
+│  └─ parents: server
+├─ aws4@1.6.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mhart/aws4
+│  ├─ licenseUrl: https://github.com/mhart/aws4/raw/master/LICENSE
+│  └─ parents: server
+├─ axios@0.17.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/axios/axios
+│  ├─ licenseUrl: https://github.com/axios/axios/raw/master/LICENSE
+│  └─ parents: server
+├─ babel-cli@6.26.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-cli
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-cli
+│  └─ parents: server
+├─ babel-code-frame@6.26.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-code-frame
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-code-frame
+│  └─ parents: server
+├─ babel-core@6.26.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-core
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-core
+│  └─ parents: server
+├─ babel-generator@6.26.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-generator
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-generator
+│  └─ parents: server
+├─ babel-helper-bindify-decorators@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-helper-bindify-decorators
+│  └─ parents: server
+├─ babel-helper-builder-binary-assignment-operator-visitor@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-helper-builder-binary-assignment-operator-visitor
+│  └─ parents: server
+├─ babel-helper-call-delegate@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-helper-call-delegate
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-helper-call-delegate
+│  └─ parents: server
+├─ babel-helper-define-map@6.26.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-helper-define-map
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-helper-define-map
+│  └─ parents: server
+├─ babel-helper-explode-assignable-expression@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-helper-explode-assignable-expression
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-helper-explode-assignable-expression
+│  └─ parents: server
+├─ babel-helper-explode-class@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-helper-explode-class
+│  └─ parents: server
+├─ babel-helper-function-name@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-helper-function-name
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-helper-function-name
+│  └─ parents: server
+├─ babel-helper-get-function-arity@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-helper-get-function-arity
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-helper-get-function-arity
+│  └─ parents: server
+├─ babel-helper-hoist-variables@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-helper-hoist-variables
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-helper-hoist-variables
+│  └─ parents: server
+├─ babel-helper-optimise-call-expression@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-helper-optimise-call-expression
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-helper-optimise-call-expression
+│  └─ parents: server
+├─ babel-helper-regex@6.26.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-helper-regex
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-helper-regex
+│  └─ parents: server
+├─ babel-helper-remap-async-to-generator@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-helper-remap-async-to-generator
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-helper-remap-async-to-generator
+│  └─ parents: server
+├─ babel-helper-replace-supers@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-helper-replace-supers
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-helper-replace-supers
+│  └─ parents: server
+├─ babel-helpers@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-helpers
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-helpers
+│  └─ parents: server
+├─ babel-messages@6.23.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-messages
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-messages
+│  └─ parents: server
+├─ babel-plugin-check-es2015-constants@6.22.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-check-es2015-constants
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-check-es2015-constants
+│  └─ parents: server
+├─ babel-plugin-syntax-async-functions@6.13.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-functions
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-functions
+│  └─ parents: server
+├─ babel-plugin-syntax-async-generators@6.13.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-generators
+│  └─ parents: server
+├─ babel-plugin-syntax-class-properties@6.13.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-properties
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-class-properties
+│  └─ parents: server
+├─ babel-plugin-syntax-decorators@6.13.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-decorators
+│  └─ parents: server
+├─ babel-plugin-syntax-dynamic-import@6.18.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import
+│  └─ parents: server
+├─ babel-plugin-syntax-exponentiation-operator@6.13.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-exponentation-operator
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-exponentation-operator
+│  └─ parents: server
+├─ babel-plugin-syntax-object-rest-spread@6.13.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-object-rest-spread
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-object-rest-spread
+│  └─ parents: server
+├─ babel-plugin-syntax-trailing-function-commas@6.22.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-trailing-function-commas
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-trailing-function-commas
+│  └─ parents: server
+├─ babel-plugin-transform-async-generator-functions@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-async-generator-functions
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-async-generator-functions
+│  └─ parents: server
+├─ babel-plugin-transform-async-to-generator@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-async-to-generator
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-async-to-generator
+│  └─ parents: server
+├─ babel-plugin-transform-class-properties@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties
+│  └─ parents: server
+├─ babel-plugin-transform-decorators@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-decorators
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-decorators
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-arrow-functions@6.22.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-arrow-functions
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-arrow-functions
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-block-scoped-functions@6.22.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoped-functions
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoped-functions
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-block-scoping@6.26.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-block-scoping
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-classes@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-classes
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-classes
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-computed-properties@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-computed-properties
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-computed-properties
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-destructuring@6.23.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-destructuring
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-destructuring
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-duplicate-keys@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-duplicate-keys
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-duplicate-keys
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-for-of@6.23.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-for-of
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-for-of
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-function-name@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-function-name
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-function-name
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-literals@6.22.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-literals
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-literals
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-modules-amd@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-modules-amd
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-modules-amd
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-modules-commonjs@6.26.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-modules-commonjs
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-modules-commonjs
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-modules-systemjs@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-modules-systemjs
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-modules-systemjs
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-modules-umd@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-modules-umd
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-modules-umd
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-object-super@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-object-super
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-object-super
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-parameters@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-parameters
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-parameters
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-shorthand-properties@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-shorthand-properties
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-shorthand-properties
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-spread@6.22.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-spread
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-spread
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-sticky-regex@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-sticky-regex
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-sticky-regex
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-template-literals@6.22.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-template-literals
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-template-literals
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-typeof-symbol@6.23.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-typeof-symbol
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-typeof-symbol
+│  └─ parents: server
+├─ babel-plugin-transform-es2015-unicode-regex@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-unicode-regex
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-unicode-regex
+│  └─ parents: server
+├─ babel-plugin-transform-exponentiation-operator@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-exponentiation-operator
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-exponentiation-operator
+│  └─ parents: server
+├─ babel-plugin-transform-object-rest-spread@6.26.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-object-rest-spread
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-object-rest-spread
+│  └─ parents: server
+├─ babel-plugin-transform-regenerator@6.26.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-regenerator
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-regenerator
+│  └─ parents: server
+├─ babel-plugin-transform-strict-mode@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-strict-mode
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-strict-mode
+│  └─ parents: server
+├─ babel-polyfill@6.26.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-polyfill
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-polyfill
+│  └─ parents: server
+├─ babel-preset-env@1.6.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel-preset-env
+│  ├─ licenseUrl: https://github.com/babel/babel-preset-env/raw/master/LICENSE
+│  └─ parents: server
+├─ babel-preset-stage-2@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-preset-stage-2
+│  └─ parents: server
+├─ babel-preset-stage-3@6.24.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-preset-stage-3
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-preset-stage-3
+│  └─ parents: server
+├─ babel-register@6.26.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-register
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-register
+│  └─ parents: server
+├─ babel-runtime@6.26.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-runtime
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-runtime
+│  └─ parents: server
+├─ babel-template@6.26.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-template
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-template
+│  └─ parents: server
+├─ babel-traverse@6.26.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-traverse
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-traverse
+│  └─ parents: server
+├─ babel-types@6.26.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babel/tree/master/packages/babel-types
+│  ├─ licenseUrl: https://github.com/babel/babel/tree/master/packages/babel-types
+│  └─ parents: server
+├─ babylon@6.18.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/babylon
+│  ├─ licenseUrl: https://github.com/babel/babylon/raw/master/LICENSE
+│  └─ parents: server
+├─ balanced-match@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/juliangruber/balanced-match
+│  ├─ licenseUrl: https://github.com/juliangruber/balanced-match/raw/master/LICENSE.md
+│  └─ parents: sqlite3:server
+├─ base64url@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/brianloveswords/base64url
+│  ├─ licenseUrl: https://github.com/brianloveswords/base64url
+│  └─ parents: server
+├─ base@0.11.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/node-base/base
+│  ├─ licenseUrl: https://github.com/node-base/base/raw/master/LICENSE
+│  └─ parents: server
+├─ basic-auth@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/basic-auth
+│  ├─ licenseUrl: https://github.com/jshttp/basic-auth/raw/master/LICENSE
+│  └─ parents: server
+├─ bcrypt-pbkdf@1.0.1
+│  ├─ licenses: BSD-3-Clause
+│  └─ parents: sqlite3:server
+├─ beeper@1.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/beeper
+│  ├─ licenseUrl: https://github.com/sindresorhus/beeper/raw/master/license
+│  └─ parents: server
+├─ binary-extensions@1.11.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/binary-extensions
+│  ├─ licenseUrl: https://github.com/sindresorhus/binary-extensions/raw/master/license
+│  └─ parents: server
+├─ block-stream@0.0.9
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/block-stream
+│  ├─ licenseUrl: https://github.com/isaacs/block-stream/raw/master/LICENCE
+│  └─ parents: sqlite3:server
+├─ bluebird@3.5.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/petkaantonov/bluebird
+│  ├─ licenseUrl: https://github.com/petkaantonov/bluebird/raw/master/LICENSE
+│  └─ parents: server
+├─ body-parser@1.18.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/expressjs/body-parser
+│  ├─ licenseUrl: https://github.com/expressjs/body-parser/raw/master/LICENSE
+│  └─ parents: server
+├─ boom@2.10.1
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/hapijs/boom
+│  ├─ licenseUrl: https://github.com/hapijs/boom/raw/master/LICENSE
+│  └─ parents: @slack/client:server
+├─ boom@4.3.1
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/hapijs/boom
+│  ├─ licenseUrl: https://github.com/hapijs/boom/raw/master/LICENSE
+│  └─ parents: server
+├─ boom@5.2.0
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/hapijs/boom
+│  ├─ licenseUrl: https://github.com/hapijs/boom/raw/master/LICENSE
+│  └─ parents: cryptiles:server
+├─ boxen@1.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/boxen
+│  ├─ licenseUrl: https://github.com/sindresorhus/boxen/raw/master/license
+│  └─ parents: server
+├─ brace-expansion@1.1.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/juliangruber/brace-expansion
+│  ├─ licenseUrl: https://github.com/juliangruber/brace-expansion
+│  └─ parents: sqlite3:server
+├─ braces@1.8.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/braces
+│  ├─ licenseUrl: https://github.com/jonschlinkert/braces/raw/master/LICENSE
+│  └─ parents: server
+├─ braces@2.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromatch/braces
+│  ├─ licenseUrl: https://github.com/micromatch/braces/raw/master/LICENSE
+│  └─ parents: liftoff:server
+├─ braces@2.3.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromatch/braces
+│  ├─ licenseUrl: https://github.com/micromatch/braces/raw/master/LICENSE
+│  └─ parents: nodemon:server
+├─ browserslist@2.9.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ai/browserslist
+│  ├─ licenseUrl: https://github.com/ai/browserslist/raw/master/LICENSE
+│  └─ parents: server
+├─ buffer-equal-constant-time@1.0.1
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/goinstant/buffer-equal-constant-time
+│  ├─ licenseUrl: https://github.com/goinstant/buffer-equal-constant-time/raw/master/LICENSE.txt
+│  └─ parents: server
+├─ bytes@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/visionmedia/bytes.js
+│  ├─ licenseUrl: https://github.com/visionmedia/bytes.js/raw/master/LICENSE
+│  └─ parents: server
+├─ cache-base@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/cache-base
+│  ├─ licenseUrl: https://github.com/jonschlinkert/cache-base/raw/master/LICENSE
+│  └─ parents: server
+├─ caller-path@0.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/caller-path
+│  ├─ licenseUrl: https://github.com/sindresorhus/caller-path
+│  └─ parents: server
+├─ callsites@0.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/callsites
+│  ├─ licenseUrl: https://github.com/sindresorhus/callsites
+│  └─ parents: server
+├─ camelcase@4.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/camelcase
+│  ├─ licenseUrl: https://github.com/sindresorhus/camelcase/raw/master/license
+│  └─ parents: server
+├─ caniuse-lite@1.0.30000770
+│  ├─ licenses: CC-BY-4.0
+│  ├─ repository: https://github.com/ben-eb/caniuse-lite
+│  ├─ licenseUrl: https://github.com/ben-eb/caniuse-lite/raw/master/LICENSE
+│  └─ parents: server
+├─ capture-stack-trace@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/floatdrop/capture-stack-trace
+│  ├─ licenseUrl: https://github.com/floatdrop/capture-stack-trace
+│  └─ parents: server
+├─ caseless@0.11.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/mikeal/caseless
+│  ├─ licenseUrl: https://github.com/mikeal/caseless/raw/master/LICENSE
+│  └─ parents: @slack/client:server
+├─ caseless@0.12.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/mikeal/caseless
+│  ├─ licenseUrl: https://github.com/mikeal/caseless/raw/master/LICENSE
+│  └─ parents: server
+├─ chalk@0.5.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/chalk
+│  ├─ licenseUrl: https://github.com/sindresorhus/chalk
+│  └─ parents: license-checker:server
+├─ chalk@1.1.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/chalk
+│  ├─ licenseUrl: https://github.com/chalk/chalk/raw/master/license
+│  └─ parents: @slack/client:server
+├─ chalk@2.3.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/chalk
+│  ├─ licenseUrl: https://github.com/chalk/chalk/raw/master/license
+│  └─ parents: server
+├─ chardet@0.4.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/runk/node-chardet
+│  ├─ licenseUrl: https://github.com/runk/node-chardet/raw/master/LICENSE
+│  └─ parents: server
+├─ chokidar@1.7.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/paulmillr/chokidar
+│  ├─ licenseUrl: https://github.com/paulmillr/chokidar
+│  └─ parents: server
+├─ chokidar@2.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/paulmillr/chokidar
+│  ├─ licenseUrl: https://github.com/paulmillr/chokidar
+│  └─ parents: nodemon:server
+├─ circular-json@0.3.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/WebReflection/circular-json
+│  ├─ licenseUrl: https://github.com/WebReflection/circular-json/raw/master/LICENSE.txt
+│  └─ parents: server
+├─ class-utils@0.3.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/class-utils
+│  ├─ licenseUrl: https://github.com/jonschlinkert/class-utils/raw/master/LICENSE
+│  └─ parents: server
+├─ cli-boxes@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/cli-boxes
+│  ├─ licenseUrl: https://github.com/sindresorhus/cli-boxes/raw/master/license
+│  └─ parents: server
+├─ cli-cursor@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/cli-cursor
+│  ├─ licenseUrl: https://github.com/sindresorhus/cli-cursor/raw/master/license
+│  └─ parents: server
+├─ cli-width@2.2.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/knownasilya/cli-width
+│  ├─ licenseUrl: https://github.com/knownasilya/cli-width/raw/master/LICENSE
+│  └─ parents: server
+├─ clone-stats@0.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/hughsk/clone-stats
+│  ├─ licenseUrl: https://github.com/hughsk/clone-stats/raw/master/LICENSE.md
+│  └─ parents: server
+├─ clone@0.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pvorb/node-clone
+│  ├─ licenseUrl: https://github.com/pvorb/node-clone/raw/master/LICENSE
+│  └─ parents: vinyl-fs:server
+├─ clone@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pvorb/node-clone
+│  ├─ licenseUrl: https://github.com/pvorb/node-clone/raw/master/LICENSE
+│  └─ parents: server
+├─ co@4.6.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/tj/co
+│  ├─ licenseUrl: https://github.com/tj/co/raw/master/LICENSE
+│  └─ parents: server
+├─ code-point-at@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/code-point-at
+│  ├─ licenseUrl: https://github.com/sindresorhus/code-point-at/raw/master/license
+│  └─ parents: sqlite3:server
+├─ collection-visit@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/collection-visit
+│  ├─ licenseUrl: https://github.com/jonschlinkert/collection-visit/raw/master/LICENSE
+│  └─ parents: server
+├─ color-convert@1.9.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Qix-/color-convert
+│  ├─ licenseUrl: https://github.com/Qix-/color-convert/raw/master/LICENSE
+│  └─ parents: server
+├─ color-name@1.1.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/dfcreative/color-name
+│  ├─ licenseUrl: https://github.com/dfcreative/color-name/raw/master/LICENSE
+│  └─ parents: server
+├─ color-support@1.1.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/color-support
+│  ├─ licenseUrl: https://github.com/isaacs/color-support/raw/master/LICENSE
+│  └─ parents: server
+├─ colors@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Marak/colors.js
+│  ├─ licenseUrl: https://github.com/Marak/colors.js/raw/master/MIT-LICENSE.txt
+│  └─ parents: winston:server
+├─ combined-stream@1.0.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/felixge/node-combined-stream
+│  ├─ licenseUrl: https://github.com/felixge/node-combined-stream/raw/master/License
+│  └─ parents: server
+├─ combined-stream@1.0.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/felixge/node-combined-stream
+│  ├─ licenseUrl: https://github.com/felixge/node-combined-stream/raw/master/License
+│  └─ parents: form-data:server
+├─ commander@2.12.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/tj/commander.js
+│  ├─ licenseUrl: https://github.com/tj/commander.js/raw/master/LICENSE
+│  └─ parents: server
+├─ commander@2.14.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/tj/commander.js
+│  ├─ licenseUrl: https://github.com/tj/commander.js/raw/master/LICENSE
+│  └─ parents: uglify-js:server
+├─ component-emitter@1.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/component/emitter
+│  ├─ licenseUrl: https://github.com/component/emitter/raw/master/LICENSE
+│  └─ parents: server
+├─ concat-map@0.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/node-concat-map
+│  ├─ licenseUrl: https://github.com/substack/node-concat-map/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ concat-stream@1.6.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/maxogden/concat-stream
+│  ├─ licenseUrl: https://github.com/maxogden/concat-stream/raw/master/LICENSE
+│  └─ parents: server
+├─ configstore@3.1.1
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/yeoman/configstore
+│  ├─ licenseUrl: https://github.com/yeoman/configstore
+│  └─ parents: server
+├─ console-control-strings@1.1.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/iarna/console-control-strings
+│  ├─ licenseUrl: https://github.com/iarna/console-control-strings/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ content-disposition@0.5.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/content-disposition
+│  ├─ licenseUrl: https://github.com/jshttp/content-disposition/raw/master/LICENSE
+│  └─ parents: server
+├─ content-type@1.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/content-type
+│  ├─ licenseUrl: https://github.com/jshttp/content-type/raw/master/LICENSE
+│  └─ parents: server
+├─ convert-source-map@1.5.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/thlorenz/convert-source-map
+│  ├─ licenseUrl: https://github.com/thlorenz/convert-source-map/raw/master/LICENSE
+│  └─ parents: server
+├─ cookie-signature@1.0.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/visionmedia/node-cookie-signature
+│  ├─ licenseUrl: https://github.com/visionmedia/node-cookie-signature
+│  └─ parents: server
+├─ cookie@0.3.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/cookie
+│  ├─ licenseUrl: https://github.com/jshttp/cookie/raw/master/LICENSE
+│  └─ parents: server
+├─ copy-descriptor@0.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/copy-descriptor
+│  ├─ licenseUrl: https://github.com/jonschlinkert/copy-descriptor/raw/master/LICENSE
+│  └─ parents: server
+├─ core-js@2.5.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/zloirock/core-js
+│  ├─ licenseUrl: https://github.com/zloirock/core-js/raw/master/LICENSE
+│  └─ parents: server
+├─ core-util-is@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/isaacs/core-util-is
+│  ├─ licenseUrl: https://github.com/isaacs/core-util-is/raw/master/LICENSE
+│  └─ parents: server
+├─ create-error-class@3.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/floatdrop/create-error-class
+│  ├─ licenseUrl: https://github.com/floatdrop/create-error-class/raw/master/license
+│  └─ parents: server
+├─ cross-spawn@5.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/IndigoUnited/node-cross-spawn
+│  ├─ licenseUrl: https://github.com/IndigoUnited/node-cross-spawn/raw/master/LICENSE
+│  └─ parents: server
+├─ cryptiles@2.0.5
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/hapijs/cryptiles
+│  ├─ licenseUrl: https://github.com/hapijs/cryptiles/raw/master/LICENSE
+│  └─ parents: @slack/client:server
+├─ cryptiles@3.1.2
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/hapijs/cryptiles
+│  ├─ licenseUrl: https://github.com/hapijs/cryptiles/raw/master/LICENSE
+│  └─ parents: server
+├─ crypto-random-string@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/crypto-random-string
+│  ├─ licenseUrl: https://github.com/sindresorhus/crypto-random-string/raw/master/license
+│  └─ parents: server
+├─ cycle@1.0.3
+│  ├─ licenses: UNKNOWN
+│  ├─ repository: https://github.com/dscape/cycle
+│  ├─ licenseUrl: https://github.com/dscape/cycle
+│  └─ parents: server
+├─ dashdash@1.14.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/trentm/node-dashdash
+│  ├─ licenseUrl: https://github.com/trentm/node-dashdash/raw/master/LICENSE.txt
+│  └─ parents: server
+├─ dateformat@2.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/felixge/node-dateformat
+│  ├─ licenseUrl: https://github.com/felixge/node-dateformat/raw/master/LICENSE
+│  └─ parents: gulp-util:server
+├─ debug@2.6.9
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/visionmedia/debug
+│  ├─ licenseUrl: https://github.com/visionmedia/debug/raw/master/LICENSE
+│  └─ parents: server
+├─ debug@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/visionmedia/debug
+│  ├─ licenseUrl: https://github.com/visionmedia/debug/raw/master/LICENSE
+│  └─ parents: follow-redirects:server
+├─ debuglog@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sam-github/node-debuglog
+│  ├─ licenseUrl: https://github.com/sam-github/node-debuglog/raw/master/LICENSE
+│  └─ parents: server
+├─ decode-uri-component@0.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/samverschueren/decode-uri-component
+│  ├─ licenseUrl: https://github.com/samverschueren/decode-uri-component/raw/master/license
+│  └─ parents: server
+├─ deep-extend@0.4.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/unclechu/node-deep-extend
+│  ├─ licenseUrl: https://github.com/unclechu/node-deep-extend/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ deep-is@0.1.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/thlorenz/deep-is
+│  ├─ licenseUrl: https://github.com/thlorenz/deep-is/blob/master/LICENSE
+│  └─ parents: server
+├─ defaults@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/tmpvar/defaults
+│  ├─ licenseUrl: https://github.com/tmpvar/defaults/raw/master/LICENSE
+│  └─ parents: server
+├─ define-property@0.2.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/define-property
+│  ├─ licenseUrl: https://github.com/jonschlinkert/define-property/raw/master/LICENSE
+│  └─ parents: class-utils:server
+├─ define-property@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/define-property
+│  ├─ licenseUrl: https://github.com/jonschlinkert/define-property/raw/master/LICENSE
+│  └─ parents: server
+├─ define-property@2.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/define-property
+│  ├─ licenseUrl: https://github.com/jonschlinkert/define-property/raw/master/LICENSE
+│  └─ parents: nodemon:server
+├─ del@2.2.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/del
+│  ├─ licenseUrl: https://github.com/sindresorhus/del/raw/master/license
+│  └─ parents: server
+├─ delayed-stream@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/felixge/node-delayed-stream
+│  ├─ licenseUrl: https://github.com/felixge/node-delayed-stream/raw/master/License
+│  └─ parents: server
+├─ delegates@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/visionmedia/node-delegates
+│  ├─ licenseUrl: https://github.com/visionmedia/node-delegates/raw/master/License
+│  └─ parents: sqlite3:server
+├─ depd@1.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/dougwilson/nodejs-depd
+│  ├─ licenseUrl: https://github.com/dougwilson/nodejs-depd/raw/master/LICENSE
+│  └─ parents: server
+├─ deprecated@0.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/wearefractal/deprecated
+│  ├─ licenseUrl: http://github.com/wearefractal/deprecated/raw/master/LICENSE
+│  └─ parents: server
+├─ destroy@1.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/stream-utils/destroy
+│  ├─ licenseUrl: https://github.com/stream-utils/destroy/raw/master/LICENSE
+│  └─ parents: server
+├─ detect-file@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/doowb/detect-file
+│  ├─ licenseUrl: https://github.com/doowb/detect-file/raw/master/LICENSE
+│  └─ parents: server
+├─ detect-indent@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/detect-indent
+│  ├─ licenseUrl: https://github.com/sindresorhus/detect-indent/raw/master/license
+│  └─ parents: server
+├─ dezalgo@1.0.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/dezalgo
+│  ├─ licenseUrl: https://github.com/npm/dezalgo/raw/master/LICENSE
+│  └─ parents: server
+├─ doctrine@2.1.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/eslint/doctrine
+│  ├─ licenseUrl: https://github.com/eslint/doctrine/raw/master/LICENSE
+│  └─ parents: server
+├─ dot-prop@4.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/dot-prop
+│  ├─ licenseUrl: https://github.com/sindresorhus/dot-prop/raw/master/license
+│  └─ parents: server
+├─ duplexer2@0.0.2
+│  ├─ licenses: BSD
+│  ├─ repository: https://github.com/deoxxa/duplexer2
+│  ├─ licenseUrl: https://github.com/deoxxa/duplexer2/raw/master/LICENSE.md
+│  └─ parents: multipipe:server
+├─ duplexer3@0.1.4
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/floatdrop/duplexer3
+│  ├─ licenseUrl: https://github.com/floatdrop/duplexer3/raw/master/LICENSE.md
+│  └─ parents: server
+├─ duplexer@0.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Raynos/duplexer
+│  ├─ licenseUrl: http://github.com/Raynos/duplexer/raw/master/LICENSE
+│  └─ parents: server
+├─ ecc-jsbn@0.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/quartzjer/ecc-jsbn
+│  ├─ licenseUrl: https://github.com/quartzjer/ecc-jsbn/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ ecdsa-sig-formatter@1.0.9
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/Brightspace/node-ecdsa-sig-formatter
+│  ├─ licenseUrl: https://github.com/Brightspace/node-ecdsa-sig-formatter/raw/master/LICENSE
+│  └─ parents: server
+├─ ee-first@1.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonathanong/ee-first
+│  ├─ licenseUrl: https://github.com/jonathanong/ee-first/raw/master/LICENSE
+│  └─ parents: server
+├─ electron-to-chromium@1.3.27
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/kilian/electron-to-chromium/
+│  ├─ licenseUrl: https://github.com/kilian/electron-to-chromium/
+│  └─ parents: server
+├─ emitter-component@1.1.1
+│  ├─ licenses: UNKNOWN
+│  ├─ repository: https://github.com/component/emitter
+│  ├─ licenseUrl: https://github.com/component/emitter
+│  └─ parents: server
+├─ encodeurl@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pillarjs/encodeurl
+│  ├─ licenseUrl: https://github.com/pillarjs/encodeurl/raw/master/LICENSE
+│  └─ parents: server
+├─ end-of-stream@0.1.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mafintosh/end-of-stream
+│  ├─ licenseUrl: https://github.com/mafintosh/end-of-stream
+│  └─ parents: server
+├─ escape-html@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/component/escape-html
+│  ├─ licenseUrl: https://github.com/component/escape-html/raw/master/LICENSE
+│  └─ parents: server
+├─ escape-string-regexp@1.0.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/escape-string-regexp
+│  ├─ licenseUrl: https://github.com/sindresorhus/escape-string-regexp/raw/master/license
+│  └─ parents: server
+├─ eslint-scope@3.7.1
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/eslint/eslint-scope
+│  ├─ licenseUrl: https://github.com/eslint/eslint-scope/raw/master/LICENSE
+│  └─ parents: server
+├─ eslint-visitor-keys@1.0.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/eslint/eslint-visitor-keys
+│  ├─ licenseUrl: https://github.com/eslint/eslint-visitor-keys/raw/master/LICENSE
+│  └─ parents: server
+├─ eslint@4.18.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/eslint/eslint
+│  ├─ licenseUrl: https://github.com/eslint/eslint/raw/master/LICENSE
+│  └─ parents: server
+├─ espree@3.5.3
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/eslint/espree
+│  ├─ licenseUrl: https://github.com/eslint/espree/raw/master/LICENSE
+│  └─ parents: server
+├─ esprima@4.0.0
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/jquery/esprima
+│  ├─ licenseUrl: https://github.com/jquery/esprima/raw/master/LICENSE.BSD
+│  └─ parents: server
+├─ esquery@1.0.0
+│  ├─ licenses: BSD
+│  ├─ repository: https://github.com/jrfeenst/esquery
+│  ├─ licenseUrl: https://github.com/jrfeenst/esquery/raw/master/license.txt
+│  └─ parents: server
+├─ esrecurse@4.2.1
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/estools/esrecurse
+│  ├─ licenseUrl: https://github.com/estools/esrecurse
+│  └─ parents: server
+├─ estraverse@4.2.0
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/estools/estraverse
+│  ├─ licenseUrl: https://github.com/estools/estraverse/raw/master/LICENSE.BSD
+│  └─ parents: server
+├─ esutils@2.0.2
+│  ├─ licenses: BSD
+│  ├─ repository: https://github.com/estools/esutils
+│  ├─ licenseUrl: http://github.com/estools/esutils/raw/master/LICENSE.BSD
+│  └─ parents: server
+├─ etag@1.8.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/etag
+│  ├─ licenseUrl: https://github.com/jshttp/etag/raw/master/LICENSE
+│  └─ parents: server
+├─ event-stream@3.3.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/dominictarr/event-stream
+│  ├─ licenseUrl: https://github.com/dominictarr/event-stream/raw/master/LICENCE
+│  └─ parents: server
+├─ eventemitter3@1.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/primus/eventemitter3
+│  ├─ licenseUrl: https://github.com/primus/eventemitter3/raw/master/LICENSE
+│  └─ parents: server
+├─ execa@0.7.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/execa
+│  ├─ licenseUrl: https://github.com/sindresorhus/execa/raw/master/license
+│  └─ parents: server
+├─ expand-brackets@0.1.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/expand-brackets
+│  ├─ licenseUrl: https://github.com/jonschlinkert/expand-brackets/raw/master/LICENSE
+│  └─ parents: server
+├─ expand-brackets@2.1.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/expand-brackets
+│  ├─ licenseUrl: https://github.com/jonschlinkert/expand-brackets/raw/master/LICENSE
+│  └─ parents: liftoff:server
+├─ expand-range@1.8.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/expand-range
+│  ├─ licenseUrl: https://github.com/jonschlinkert/expand-range/raw/master/LICENSE
+│  └─ parents: server
+├─ expand-tilde@2.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/expand-tilde
+│  ├─ licenseUrl: https://github.com/jonschlinkert/expand-tilde/raw/master/LICENSE
+│  └─ parents: server
+├─ express@4.16.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/expressjs/express
+│  ├─ licenseUrl: https://github.com/expressjs/express/raw/master/LICENSE
+│  └─ parents: server
+├─ extend-shallow@1.1.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/extend-shallow
+│  ├─ licenseUrl: https://github.com/jonschlinkert/extend-shallow/raw/master/LICENSE
+│  └─ parents: plugin-error:server
+├─ extend-shallow@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/extend-shallow
+│  ├─ licenseUrl: https://github.com/jonschlinkert/extend-shallow/raw/master/LICENSE
+│  └─ parents: server
+├─ extend-shallow@3.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/extend-shallow
+│  ├─ licenseUrl: https://github.com/jonschlinkert/extend-shallow/raw/master/LICENSE
+│  └─ parents: split-string:server
+├─ extend@3.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/justmoon/node-extend
+│  ├─ licenseUrl: https://github.com/justmoon/node-extend/raw/master/LICENSE
+│  └─ parents: server
+├─ external-editor@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mrkmg/node-external-editor
+│  ├─ licenseUrl: https://github.com/mrkmg/node-external-editor/raw/master/LICENSE
+│  └─ parents: server
+├─ extglob@0.3.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/extglob
+│  ├─ licenseUrl: https://github.com/jonschlinkert/extglob/raw/master/LICENSE
+│  └─ parents: server
+├─ extglob@2.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromatch/extglob
+│  ├─ licenseUrl: https://github.com/micromatch/extglob/raw/master/LICENSE
+│  └─ parents: liftoff:server
+├─ extsprintf@1.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/davepacheco/node-extsprintf
+│  ├─ licenseUrl: https://github.com/davepacheco/node-extsprintf/raw/master/LICENSE
+│  └─ parents: server
+├─ eyes@0.1.8
+│  ├─ licenses: MIT
+│  ├─ licenseUrl: 
+│  └─ parents: server
+├─ fancy-log@1.3.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/js-cli/fancy-log
+│  ├─ licenseUrl: https://github.com/js-cli/fancy-log/raw/master/LICENSE
+│  └─ parents: server
+├─ fast-deep-equal@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/epoberezkin/fast-deep-equal
+│  ├─ licenseUrl: https://github.com/epoberezkin/fast-deep-equal/raw/master/LICENSE
+│  └─ parents: server
+├─ fast-json-stable-stringify@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/epoberezkin/fast-json-stable-stringify
+│  ├─ licenseUrl: https://github.com/epoberezkin/fast-json-stable-stringify/raw/master/LICENSE
+│  └─ parents: server
+├─ fast-levenshtein@2.0.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/hiddentao/fast-levenshtein
+│  ├─ licenseUrl: https://github.com/hiddentao/fast-levenshtein/raw/master/LICENSE.md
+│  └─ parents: server
+├─ figures@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/figures
+│  ├─ licenseUrl: https://github.com/sindresorhus/figures/raw/master/license
+│  └─ parents: server
+├─ file-entry-cache@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/royriojas/file-entry-cache
+│  ├─ licenseUrl: https://github.com/royriojas/file-entry-cache/raw/master/LICENSE
+│  └─ parents: server
+├─ filename-regex@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/regexhq/filename-regex
+│  ├─ licenseUrl: https://github.com/regexhq/filename-regex/raw/master/LICENSE
+│  └─ parents: server
+├─ fill-range@2.2.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/fill-range
+│  ├─ licenseUrl: https://github.com/jonschlinkert/fill-range/raw/master/LICENSE
+│  └─ parents: server
+├─ fill-range@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/fill-range
+│  ├─ licenseUrl: https://github.com/jonschlinkert/fill-range/raw/master/LICENSE
+│  └─ parents: liftoff:server
+├─ finalhandler@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pillarjs/finalhandler
+│  ├─ licenseUrl: https://github.com/pillarjs/finalhandler/raw/master/LICENSE
+│  └─ parents: server
+├─ find-index@0.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jsdf/find-index
+│  ├─ licenseUrl: https://github.com/jsdf/find-index
+│  └─ parents: server
+├─ findup-sync@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/js-cli/node-findup-sync
+│  ├─ licenseUrl: https://github.com/js-cli/node-findup-sync
+│  └─ parents: liftoff:server
+├─ fined@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/js-cli/fined
+│  ├─ licenseUrl: https://github.com/js-cli/fined/raw/master/LICENSE
+│  └─ parents: server
+├─ first-chunk-stream@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/first-chunk-stream
+│  ├─ licenseUrl: https://github.com/sindresorhus/first-chunk-stream
+│  └─ parents: server
+├─ flagged-respawn@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/js-cli/js-flagged-respawn
+│  ├─ licenseUrl: https://github.com/js-cli/js-flagged-respawn/raw/master/LICENSE
+│  └─ parents: server
+├─ flat-cache@1.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/royriojas/flat-cache
+│  ├─ licenseUrl: https://github.com/royriojas/flat-cache/raw/master/LICENSE
+│  └─ parents: server
+├─ follow-redirects@1.4.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/olalonde/follow-redirects
+│  ├─ licenseUrl: https://github.com/olalonde/follow-redirects/raw/master/LICENSE
+│  └─ parents: server
+├─ for-in@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/for-in
+│  ├─ licenseUrl: https://github.com/jonschlinkert/for-in/raw/master/LICENSE
+│  └─ parents: server
+├─ for-own@0.1.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/for-own
+│  ├─ licenseUrl: https://github.com/jonschlinkert/for-own/raw/master/LICENSE
+│  └─ parents: server
+├─ for-own@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/for-own
+│  ├─ licenseUrl: https://github.com/jonschlinkert/for-own/raw/master/LICENSE
+│  └─ parents: object.defaults:server
+├─ forever-agent@0.6.1
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/mikeal/forever-agent
+│  ├─ licenseUrl: https://github.com/mikeal/forever-agent/raw/master/LICENSE
+│  └─ parents: server
+├─ form-data@2.1.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/form-data/form-data
+│  ├─ licenseUrl: https://github.com/form-data/form-data/raw/master/License
+│  └─ parents: @slack/client:server
+├─ form-data@2.3.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/form-data/form-data
+│  ├─ licenseUrl: https://github.com/form-data/form-data/raw/master/License
+│  └─ parents: server
+├─ forwarded@0.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/forwarded
+│  ├─ licenseUrl: https://github.com/jshttp/forwarded/raw/master/LICENSE
+│  └─ parents: server
+├─ fragment-cache@0.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/fragment-cache
+│  ├─ licenseUrl: https://github.com/jonschlinkert/fragment-cache/raw/master/LICENSE
+│  └─ parents: server
+├─ fresh@0.5.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/fresh
+│  ├─ licenseUrl: https://github.com/jshttp/fresh/raw/master/LICENSE
+│  └─ parents: server
+├─ from@0.1.7
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/dominictarr/from
+│  ├─ licenseUrl: https://github.com/dominictarr/from/raw/master/LICENSE.APACHE2
+│  └─ parents: server
+├─ fs-readdir-recursive@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/fs-utils/fs-readdir-recursive
+│  ├─ licenseUrl: https://github.com/fs-utils/fs-readdir-recursive/raw/master/LICENSE
+│  └─ parents: server
+├─ fs.realpath@1.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/fs.realpath
+│  ├─ licenseUrl: https://github.com/isaacs/fs.realpath/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ fstream-ignore@1.0.5
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/fstream-ignore
+│  ├─ licenseUrl: https://github.com/isaacs/fstream-ignore/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ fstream@1.0.11
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/fstream
+│  ├─ licenseUrl: https://github.com/npm/fstream/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ functional-red-black-tree@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mikolalysenko/functional-red-black-tree
+│  ├─ licenseUrl: https://github.com/mikolalysenko/functional-red-black-tree/raw/master/LICENSE
+│  └─ parents: server
+├─ gauge@2.7.4
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/iarna/gauge
+│  ├─ licenseUrl: https://github.com/iarna/gauge/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ gaze@0.5.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/shama/gaze
+│  ├─ licenseUrl: https://github.com/shama/gaze/blob/master/LICENSE-MIT
+│  └─ parents: glob-watcher:server
+├─ generate-function@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mafintosh/generate-function
+│  ├─ licenseUrl: https://github.com/mafintosh/generate-function
+│  └─ parents: server
+├─ generate-object-property@1.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mafintosh/generate-object-property
+│  ├─ licenseUrl: https://github.com/mafintosh/generate-object-property/raw/master/LICENSE
+│  └─ parents: server
+├─ get-stream@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/get-stream
+│  ├─ licenseUrl: https://github.com/sindresorhus/get-stream/raw/master/license
+│  └─ parents: server
+├─ get-value@2.0.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/get-value
+│  ├─ licenseUrl: https://github.com/jonschlinkert/get-value/raw/master/LICENSE
+│  └─ parents: server
+├─ getpass@0.1.7
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/arekinath/node-getpass
+│  ├─ licenseUrl: https://github.com/arekinath/node-getpass/raw/master/LICENSE
+│  └─ parents: server
+├─ github-url-from-git@1.5.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/visionmedia/node-github-url-from-git
+│  ├─ licenseUrl: https://github.com/visionmedia/node-github-url-from-git/raw/master/LICENSE
+│  └─ parents: server
+├─ github-url-from-username-repo@1.0.2
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/robertkowalski/github-url-from-username-repo
+│  ├─ licenseUrl: https://github.com/robertkowalski/github-url-from-username-repo/raw/master/LICENSE
+│  └─ parents: server
+├─ glob-base@0.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/glob-base
+│  ├─ licenseUrl: https://github.com/jonschlinkert/glob-base/blob/master/LICENSE
+│  └─ parents: server
+├─ glob-parent@2.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/es128/glob-parent
+│  ├─ licenseUrl: https://github.com/es128/glob-parent/raw/master/LICENSE
+│  └─ parents: server
+├─ glob-parent@3.1.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/es128/glob-parent
+│  ├─ licenseUrl: https://github.com/es128/glob-parent/raw/master/LICENSE
+│  └─ parents: nodemon:server
+├─ glob-stream@3.1.18
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/wearefractal/glob-stream
+│  ├─ licenseUrl: http://github.com/wearefractal/glob-stream/raw/master/LICENSE
+│  └─ parents: server
+├─ glob-watcher@0.0.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/wearefractal/glob-watcher
+│  ├─ licenseUrl: http://github.com/wearefractal/glob-watcher/raw/master/LICENSE
+│  └─ parents: server
+├─ glob2base@0.0.12
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/wearefractal/glob2base
+│  ├─ licenseUrl: http://github.com/wearefractal/glob2base/raw/master/LICENSE
+│  └─ parents: server
+├─ glob@3.1.21
+│  ├─ licenses: BSD
+│  ├─ repository: https://github.com/isaacs/node-glob
+│  ├─ licenseUrl: https://github.com/isaacs/node-glob/raw/master/LICENSE
+│  └─ parents: glob-watcher:server
+├─ glob@4.5.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-glob
+│  ├─ licenseUrl: https://github.com/isaacs/node-glob/raw/master/LICENSE
+│  └─ parents: glob-stream:server
+├─ glob@5.0.15
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-glob
+│  ├─ licenseUrl: https://github.com/isaacs/node-glob/raw/master/LICENSE
+│  └─ parents: read-package-json:server
+├─ glob@7.1.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-glob
+│  ├─ licenseUrl: https://github.com/isaacs/node-glob/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ global-dirs@0.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/global-dirs
+│  ├─ licenseUrl: https://github.com/sindresorhus/global-dirs/raw/master/license
+│  └─ parents: server
+├─ global-modules@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/global-modules
+│  ├─ licenseUrl: https://github.com/jonschlinkert/global-modules/raw/master/LICENSE
+│  └─ parents: server
+├─ global-prefix@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/global-prefix
+│  ├─ licenseUrl: https://github.com/jonschlinkert/global-prefix/raw/master/LICENSE
+│  └─ parents: server
+├─ globals@11.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/globals
+│  ├─ licenseUrl: https://github.com/sindresorhus/globals/raw/master/license
+│  └─ parents: eslint:server
+├─ globals@9.18.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/globals
+│  ├─ licenseUrl: https://github.com/sindresorhus/globals/raw/master/license
+│  └─ parents: server
+├─ globby@5.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/globby
+│  ├─ licenseUrl: https://github.com/sindresorhus/globby/raw/master/license
+│  └─ parents: server
+├─ globule@0.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/cowboy/node-globule
+│  ├─ licenseUrl: https://github.com/cowboy/node-globule/blob/master/LICENSE-MIT
+│  └─ parents: glob-watcher:server
+├─ glogg@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/js-cli/glogg
+│  ├─ licenseUrl: https://github.com/js-cli/glogg/raw/master/LICENSE
+│  └─ parents: server
+├─ google-auth-library@0.12.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/google/google-auth-library-nodejs
+│  ├─ licenseUrl: https://github.com/google/google-auth-library-nodejs/raw/master/LICENSE
+│  └─ parents: server
+├─ google-p12-pem@0.1.2
+│  ├─ licenses: MIT
+│  └─ parents: server
+├─ googleapis@23.0.2
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/google/google-api-nodejs-client
+│  ├─ licenseUrl: https://github.com/google/google-api-nodejs-client/raw/master/COPYING
+│  └─ parents: server
+├─ got@6.7.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/got
+│  ├─ licenseUrl: https://github.com/sindresorhus/got/raw/master/license
+│  └─ parents: server
+├─ graceful-fs@1.2.3
+│  ├─ licenses: BSD
+│  ├─ repository: https://github.com/isaacs/node-graceful-fs
+│  ├─ licenseUrl: https://github.com/isaacs/node-graceful-fs/raw/master/LICENSE
+│  └─ parents: glob-watcher:server
+├─ graceful-fs@3.0.11
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-graceful-fs
+│  ├─ licenseUrl: https://github.com/isaacs/node-graceful-fs/raw/master/LICENSE
+│  └─ parents: vinyl-fs:server
+├─ graceful-fs@4.1.11
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-graceful-fs
+│  ├─ licenseUrl: https://github.com/isaacs/node-graceful-fs/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ gtoken@1.2.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/google/node-gtoken
+│  ├─ licenseUrl: https://github.com/google/node-gtoken/raw/master/LICENSE
+│  └─ parents: server
+├─ gulp-babel@7.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/babel/gulp-babel
+│  ├─ licenseUrl: https://github.com/babel/gulp-babel/raw/master/license
+│  └─ parents: server
+├─ gulp-copy@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/klaascuvelier/gulp-copy
+│  ├─ licenseUrl: https://github.com/klaascuvelier/gulp-copy/raw/master/LICENSE
+│  └─ parents: server
+├─ gulp-license-crawler@0.0.10
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/mwittig/gulp-license-crawler
+│  ├─ licenseUrl: https://github.com/mwittig/gulp-license-crawler/raw/master/LICENSE
+│  └─ parents: server
+├─ gulp-uglify@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/terinjokes/gulp-uglify
+│  ├─ licenseUrl: https://github.com/terinjokes/gulp-uglify/raw/master/LICENSE.md
+│  └─ parents: server
+├─ gulp-util@3.0.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/gulpjs/gulp-util
+│  ├─ licenseUrl: https://github.com/gulpjs/gulp-util/raw/master/LICENSE
+│  └─ parents: server
+├─ gulp@3.9.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/gulpjs/gulp
+│  ├─ licenseUrl: https://github.com/gulpjs/gulp/raw/master/LICENSE
+│  └─ parents: server
+├─ gulplog@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/gulpjs/gulplog
+│  ├─ licenseUrl: https://github.com/gulpjs/gulplog/raw/master/LICENSE
+│  └─ parents: server
+├─ har-schema@1.0.5
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/ahmadnassri/har-schema
+│  ├─ licenseUrl: https://github.com/ahmadnassri/har-schema/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ har-schema@2.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/ahmadnassri/har-schema
+│  ├─ licenseUrl: https://github.com/ahmadnassri/har-schema/raw/master/LICENSE
+│  └─ parents: server
+├─ har-validator@2.0.6
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/ahmadnassri/har-validator
+│  ├─ licenseUrl: https://github.com/ahmadnassri/har-validator/raw/master/LICENSE
+│  └─ parents: @slack/client:server
+├─ har-validator@4.2.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/ahmadnassri/har-validator
+│  ├─ licenseUrl: https://github.com/ahmadnassri/har-validator/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ har-validator@5.0.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/ahmadnassri/har-validator
+│  ├─ licenseUrl: https://github.com/ahmadnassri/har-validator/raw/master/LICENSE
+│  └─ parents: server
+├─ has-ansi@0.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/has-ansi
+│  ├─ licenseUrl: https://github.com/sindresorhus/has-ansi
+│  └─ parents: license-checker:server
+├─ has-ansi@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/has-ansi
+│  ├─ licenseUrl: https://github.com/sindresorhus/has-ansi/raw/master/license
+│  └─ parents: server
+├─ has-flag@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/has-flag
+│  ├─ licenseUrl: https://github.com/sindresorhus/has-flag/raw/master/license
+│  └─ parents: server
+├─ has-gulplog@0.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/gulpjs/has-gulplog
+│  ├─ licenseUrl: https://github.com/gulpjs/has-gulplog/raw/master/LICENSE
+│  └─ parents: server
+├─ has-unicode@2.0.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/iarna/has-unicode
+│  ├─ licenseUrl: https://github.com/iarna/has-unicode/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ has-value@0.3.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/has-value
+│  ├─ licenseUrl: https://github.com/jonschlinkert/has-value/raw/master/LICENSE
+│  └─ parents: unset-value:server
+├─ has-value@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/has-value
+│  ├─ licenseUrl: https://github.com/jonschlinkert/has-value/raw/master/LICENSE
+│  └─ parents: server
+├─ has-values@0.1.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/has-values
+│  ├─ licenseUrl: https://github.com/jonschlinkert/has-values/raw/master/LICENSE
+│  └─ parents: unset-value:server
+├─ has-values@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/has-values
+│  ├─ licenseUrl: https://github.com/jonschlinkert/has-values/raw/master/LICENSE
+│  └─ parents: server
+├─ hawk@3.1.3
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/hueniverse/hawk
+│  ├─ licenseUrl: https://github.com/hueniverse/hawk/raw/master/LICENSE
+│  └─ parents: @slack/client:server
+├─ hawk@6.0.2
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/hueniverse/hawk
+│  ├─ licenseUrl: https://github.com/hueniverse/hawk/raw/master/LICENSE
+│  └─ parents: server
+├─ hoek@2.16.3
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/hapijs/hoek
+│  ├─ licenseUrl: https://github.com/hapijs/hoek/raw/master/LICENSE
+│  └─ parents: @slack/client:server
+├─ hoek@4.2.1
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/hapijs/hoek
+│  ├─ licenseUrl: https://github.com/hapijs/hoek/raw/master/LICENSE
+│  └─ parents: server
+├─ home-or-tmp@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/home-or-tmp
+│  ├─ licenseUrl: https://github.com/sindresorhus/home-or-tmp/raw/master/license
+│  └─ parents: server
+├─ homedir-polyfill@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/doowb/homedir-polyfill
+│  ├─ licenseUrl: https://github.com/doowb/homedir-polyfill/raw/master/LICENSE
+│  └─ parents: server
+├─ http-errors@1.6.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/http-errors
+│  ├─ licenseUrl: https://github.com/jshttp/http-errors/raw/master/LICENSE
+│  └─ parents: server
+├─ http-signature@1.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/joyent/node-http-signature
+│  ├─ licenseUrl: https://github.com/joyent/node-http-signature/raw/master/LICENSE
+│  └─ parents: @slack/client:server
+├─ http-signature@1.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/joyent/node-http-signature
+│  ├─ licenseUrl: https://github.com/joyent/node-http-signature/raw/master/LICENSE
+│  └─ parents: server
+├─ https-proxy-agent@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/TooTallNate/node-https-proxy-agent
+│  ├─ licenseUrl: https://github.com/TooTallNate/node-https-proxy-agent
+│  └─ parents: server
+├─ iconv-lite@0.4.19
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/ashtuchkin/iconv-lite
+│  ├─ licenseUrl: https://github.com/ashtuchkin/iconv-lite/raw/master/LICENSE
+│  └─ parents: server
+├─ ignore-by-default@1.0.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/novemberborn/ignore-by-default
+│  ├─ licenseUrl: https://github.com/novemberborn/ignore-by-default/raw/master/LICENSE
+│  └─ parents: server
+├─ ignore@3.3.7
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/kaelzhang/node-ignore
+│  ├─ licenseUrl: https://github.com/kaelzhang/node-ignore
+│  └─ parents: server
+├─ import-lazy@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/import-lazy
+│  ├─ licenseUrl: https://github.com/sindresorhus/import-lazy/raw/master/license
+│  └─ parents: server
+├─ imurmurhash@0.1.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jensyt/imurmurhash-js
+│  ├─ licenseUrl: https://github.com/jensyt/imurmurhash-js
+│  └─ parents: server
+├─ inflight@1.0.6
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/inflight
+│  ├─ licenseUrl: https://github.com/npm/inflight/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ inherits@1.0.2
+│  ├─ licenses: UNKNOWN
+│  ├─ repository: https://github.com/isaacs/inherits
+│  ├─ licenseUrl: https://github.com/isaacs/inherits/raw/master/LICENSE
+│  └─ parents: glob-watcher:server
+├─ inherits@2.0.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/inherits
+│  ├─ licenseUrl: https://github.com/isaacs/inherits/raw/master/LICENSE
+│  └─ parents: server
+├─ ini@1.3.4
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/ini
+│  ├─ licenseUrl: https://github.com/isaacs/ini/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ ini@1.3.5
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/ini
+│  ├─ licenseUrl: https://github.com/isaacs/ini/raw/master/LICENSE
+│  └─ parents: server
+├─ inquirer@3.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/SBoudrias/Inquirer.js
+│  ├─ licenseUrl: https://github.com/SBoudrias/Inquirer.js
+│  └─ parents: server
+├─ interpret@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/tkellen/node-interpret
+│  ├─ licenseUrl: https://github.com/tkellen/node-interpret/raw/master/LICENSE
+│  └─ parents: server
+├─ invariant@2.2.2
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/zertosh/invariant
+│  ├─ licenseUrl: https://github.com/zertosh/invariant/raw/master/LICENSE
+│  └─ parents: server
+├─ ipaddr.js@1.5.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/whitequark/ipaddr.js
+│  ├─ licenseUrl: https://github.com/whitequark/ipaddr.js/raw/master/LICENSE
+│  └─ parents: server
+├─ is-absolute@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-absolute
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-absolute/raw/master/LICENSE
+│  └─ parents: server
+├─ is-accessor-descriptor@0.1.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-accessor-descriptor
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-accessor-descriptor/raw/master/LICENSE
+│  └─ parents: class-utils:server
+├─ is-accessor-descriptor@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-accessor-descriptor
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-accessor-descriptor/raw/master/LICENSE
+│  └─ parents: server
+├─ is-binary-path@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-binary-path
+│  ├─ licenseUrl: https://github.com/sindresorhus/is-binary-path/raw/master/license
+│  └─ parents: server
+├─ is-buffer@1.1.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/feross/is-buffer
+│  ├─ licenseUrl: https://github.com/feross/is-buffer/raw/master/LICENSE
+│  └─ parents: server
+├─ is-data-descriptor@0.1.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-data-descriptor
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-data-descriptor/raw/master/LICENSE
+│  └─ parents: class-utils:server
+├─ is-data-descriptor@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-data-descriptor
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-data-descriptor/raw/master/LICENSE
+│  └─ parents: server
+├─ is-descriptor@0.1.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-descriptor
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-descriptor/raw/master/LICENSE
+│  └─ parents: class-utils:server
+├─ is-descriptor@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-descriptor
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-descriptor/raw/master/LICENSE
+│  └─ parents: server
+├─ is-dotfile@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-dotfile
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-dotfile/raw/master/LICENSE
+│  └─ parents: server
+├─ is-equal-shallow@0.1.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-equal-shallow
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-equal-shallow/raw/master/LICENSE
+│  └─ parents: server
+├─ is-extendable@0.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-extendable
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-extendable/raw/master/LICENSE
+│  └─ parents: server
+├─ is-extendable@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-extendable
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-extendable/raw/master/LICENSE
+│  └─ parents: split-string:server
+├─ is-extglob@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-extglob
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-extglob/raw/master/LICENSE
+│  └─ parents: server
+├─ is-extglob@2.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-extglob
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-extglob/raw/master/LICENSE
+│  └─ parents: liftoff:server
+├─ is-finite@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-finite
+│  ├─ licenseUrl: https://github.com/sindresorhus/is-finite/raw/master/license
+│  └─ parents: server
+├─ is-fullwidth-code-point@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-fullwidth-code-point
+│  ├─ licenseUrl: https://github.com/sindresorhus/is-fullwidth-code-point/raw/master/license
+│  └─ parents: sqlite3:server
+├─ is-fullwidth-code-point@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-fullwidth-code-point
+│  ├─ licenseUrl: https://github.com/sindresorhus/is-fullwidth-code-point/raw/master/license
+│  └─ parents: server
+├─ is-glob@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-glob
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-glob/raw/master/LICENSE
+│  └─ parents: server
+├─ is-glob@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-glob
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-glob/raw/master/LICENSE
+│  └─ parents: liftoff:server
+├─ is-glob@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-glob
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-glob/raw/master/LICENSE
+│  └─ parents: nodemon:server
+├─ is-installed-globally@0.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-installed-globally
+│  ├─ licenseUrl: https://github.com/sindresorhus/is-installed-globally/raw/master/license
+│  └─ parents: server
+├─ is-my-json-valid@2.17.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mafintosh/is-my-json-valid
+│  ├─ licenseUrl: https://github.com/mafintosh/is-my-json-valid/raw/master/LICENSE
+│  └─ parents: server
+├─ is-npm@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-npm
+│  ├─ licenseUrl: https://github.com/sindresorhus/is-npm
+│  └─ parents: server
+├─ is-number@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-number
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-number/raw/master/LICENSE
+│  └─ parents: server
+├─ is-number@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-number
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-number/raw/master/LICENSE
+│  └─ parents: randomatic:server
+├─ is-number@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-number
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-number/raw/master/LICENSE
+│  └─ parents: is-odd:nodemon:server
+├─ is-obj@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-obj
+│  ├─ licenseUrl: https://github.com/sindresorhus/is-obj/raw/master/license
+│  └─ parents: server
+├─ is-odd@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-odd
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-odd/raw/master/LICENSE
+│  └─ parents: server
+├─ is-odd@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-odd
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-odd/raw/master/LICENSE
+│  └─ parents: nodemon:server
+├─ is-path-cwd@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-path-cwd
+│  ├─ licenseUrl: https://github.com/sindresorhus/is-path-cwd
+│  └─ parents: server
+├─ is-path-in-cwd@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-path-in-cwd
+│  ├─ licenseUrl: https://github.com/sindresorhus/is-path-in-cwd
+│  └─ parents: server
+├─ is-path-inside@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-path-inside
+│  ├─ licenseUrl: https://github.com/sindresorhus/is-path-inside/raw/master/license
+│  └─ parents: server
+├─ is-plain-object@2.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-plain-object
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-plain-object/raw/master/LICENSE
+│  └─ parents: server
+├─ is-posix-bracket@0.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-posix-bracket
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-posix-bracket/raw/master/LICENSE
+│  └─ parents: server
+├─ is-primitive@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-primitive
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-primitive/blob/master/LICENSE
+│  └─ parents: server
+├─ is-promise@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/then/is-promise
+│  ├─ licenseUrl: https://github.com/then/is-promise/raw/master/LICENSE
+│  └─ parents: server
+├─ is-property@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mikolalysenko/is-property
+│  ├─ licenseUrl: https://github.com/mikolalysenko/is-property/raw/master/LICENSE
+│  └─ parents: server
+├─ is-redirect@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-redirect
+│  ├─ licenseUrl: https://github.com/sindresorhus/is-redirect/raw/master/license
+│  └─ parents: server
+├─ is-relative@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-relative
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-relative/raw/master/LICENSE
+│  └─ parents: server
+├─ is-resolvable@1.1.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/shinnn/is-resolvable
+│  ├─ licenseUrl: https://github.com/shinnn/is-resolvable/raw/master/LICENSE
+│  └─ parents: server
+├─ is-retry-allowed@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/floatdrop/is-retry-allowed
+│  ├─ licenseUrl: https://github.com/floatdrop/is-retry-allowed/raw/master/license
+│  └─ parents: server
+├─ is-stream@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-stream
+│  ├─ licenseUrl: https://github.com/sindresorhus/is-stream/raw/master/license
+│  └─ parents: server
+├─ is-typedarray@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/hughsk/is-typedarray
+│  ├─ licenseUrl: https://github.com/hughsk/is-typedarray/raw/master/LICENSE.md
+│  └─ parents: server
+├─ is-unc-path@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-unc-path
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-unc-path/raw/master/LICENSE
+│  └─ parents: server
+├─ is-utf8@0.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/wayfind/is-utf8
+│  ├─ licenseUrl: https://github.com/wayfind/is-utf8/raw/master/LICENSE
+│  └─ parents: server
+├─ is-windows@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-windows
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-windows/raw/master/LICENSE
+│  └─ parents: server
+├─ is-windows@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/is-windows
+│  ├─ licenseUrl: https://github.com/jonschlinkert/is-windows/raw/master/LICENSE
+│  └─ parents: nodemon:server
+├─ isarray@0.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/juliangruber/isarray
+│  ├─ licenseUrl: https://github.com/juliangruber/isarray
+│  └─ parents: multipipe:server
+├─ isarray@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/juliangruber/isarray
+│  ├─ licenseUrl: https://github.com/juliangruber/isarray
+│  └─ parents: sqlite3:server
+├─ isexe@2.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/isexe
+│  ├─ licenseUrl: https://github.com/isaacs/isexe/raw/master/LICENSE
+│  └─ parents: server
+├─ isobject@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/isobject
+│  ├─ licenseUrl: https://github.com/jonschlinkert/isobject/raw/master/LICENSE
+│  └─ parents: server
+├─ isobject@3.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/isobject
+│  ├─ licenseUrl: https://github.com/jonschlinkert/isobject/raw/master/LICENSE
+│  └─ parents: object-visit:server
+├─ isstream@0.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rvagg/isstream
+│  ├─ licenseUrl: https://github.com/rvagg/isstream/raw/master/LICENSE.md
+│  └─ parents: server
+├─ jju@1.3.0
+│  ├─ licenses: WTFPL
+│  ├─ repository: https://github.com/rlidwka/jju
+│  ├─ licenseUrl: http://www.wtfpl.net/txt/copying/
+│  └─ parents: server
+├─ jquery-extend@2.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/dnukem/node-jquery-extend
+│  ├─ licenseUrl: https://github.com/dnukem/node-jquery-extend/raw/master/LICENSE
+│  └─ parents: server
+├─ js-tokens@3.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lydell/js-tokens
+│  ├─ licenseUrl: https://github.com/lydell/js-tokens/raw/master/LICENSE
+│  └─ parents: server
+├─ js-yaml@3.10.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/nodeca/js-yaml
+│  ├─ licenseUrl: https://github.com/nodeca/js-yaml/raw/master/LICENSE
+│  └─ parents: server
+├─ jsbn@0.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/andyperlitch/jsbn
+│  ├─ licenseUrl: https://github.com/andyperlitch/jsbn/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ jsesc@0.5.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mathiasbynens/jsesc
+│  ├─ licenseUrl: http://mths.be/mit
+│  └─ parents: regjsparser:server
+├─ jsesc@1.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mathiasbynens/jsesc
+│  ├─ licenseUrl: https://github.com/mathiasbynens/jsesc/raw/master/LICENSE-MIT.txt
+│  └─ parents: server
+├─ json-parse-helpfulerror@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/smikes/json-parse-helpfulerror
+│  ├─ licenseUrl: https://github.com/smikes/json-parse-helpfulerror/raw/master/LICENSE
+│  └─ parents: server
+├─ json-schema-traverse@0.3.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/epoberezkin/json-schema-traverse
+│  ├─ licenseUrl: https://github.com/epoberezkin/json-schema-traverse/raw/master/LICENSE
+│  └─ parents: server
+├─ json-schema@0.2.3
+│  ├─ licenses: AFLv2.1,BSD
+│  ├─ repository: https://github.com/kriszyp/json-schema
+│  ├─ licenseUrl: http://trac.dojotoolkit.org/browser/dojo/trunk/LICENSE#L43,http://trac.dojotoolkit.org/browser/dojo/trunk/LICENSE#L13
+│  └─ parents: server
+├─ json-stable-stringify-without-jsonify@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/samn/json-stable-stringify
+│  ├─ licenseUrl: https://github.com/samn/json-stable-stringify/raw/master/LICENSE
+│  └─ parents: server
+├─ json-stable-stringify@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/json-stable-stringify
+│  ├─ licenseUrl: https://github.com/substack/json-stable-stringify/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ json-stringify-safe@5.0.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/json-stringify-safe
+│  ├─ licenseUrl: https://github.com/isaacs/json-stringify-safe/raw/master/LICENSE
+│  └─ parents: server
+├─ json5@0.5.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/aseemk/json5
+│  ├─ licenseUrl: https://github.com/aseemk/json5/raw/master/LICENSE.md
+│  └─ parents: server
+├─ jsonify@0.0.0
+│  ├─ licenses: Public Domain
+│  ├─ repository: https://github.com/substack/jsonify
+│  ├─ licenseUrl: https://github.com/substack/jsonify
+│  └─ parents: sqlite3:server
+├─ jsonpointer@4.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/janl/node-jsonpointer
+│  ├─ licenseUrl: https://github.com/janl/node-jsonpointer/raw/master/LICENSE.md
+│  └─ parents: server
+├─ jsprim@1.4.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/joyent/node-jsprim
+│  ├─ licenseUrl: https://github.com/joyent/node-jsprim/raw/master/LICENSE
+│  └─ parents: server
+├─ jwa@1.1.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/brianloveswords/node-jwa
+│  ├─ licenseUrl: https://github.com/brianloveswords/node-jwa/raw/master/LICENSE
+│  └─ parents: server
+├─ jws@3.1.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/brianloveswords/node-jws
+│  ├─ licenseUrl: https://github.com/brianloveswords/node-jws/raw/master/LICENSE
+│  └─ parents: server
+├─ kind-of@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/kind-of
+│  ├─ licenseUrl: https://github.com/jonschlinkert/kind-of/blob/master/LICENSE
+│  └─ parents: plugin-error:server
+├─ kind-of@3.2.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/kind-of
+│  ├─ licenseUrl: https://github.com/jonschlinkert/kind-of/raw/master/LICENSE
+│  └─ parents: server
+├─ kind-of@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/kind-of
+│  ├─ licenseUrl: https://github.com/jonschlinkert/kind-of/raw/master/LICENSE
+│  └─ parents: randomatic:server
+├─ kind-of@5.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/kind-of
+│  ├─ licenseUrl: https://github.com/jonschlinkert/kind-of/raw/master/LICENSE
+│  └─ parents: class-utils:server
+├─ kind-of@6.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/kind-of
+│  ├─ licenseUrl: https://github.com/jonschlinkert/kind-of/raw/master/LICENSE
+│  └─ parents: is-accessor-descriptor:server
+├─ latest-version@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/latest-version
+│  ├─ licenseUrl: https://github.com/sindresorhus/latest-version/raw/master/license
+│  └─ parents: server
+├─ lazy-cache@2.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/lazy-cache
+│  ├─ licenseUrl: https://github.com/jonschlinkert/lazy-cache/raw/master/LICENSE
+│  └─ parents: use:server
+├─ levn@0.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/gkz/levn
+│  ├─ licenseUrl: https://github.com/gkz/levn/raw/master/LICENSE
+│  └─ parents: server
+├─ license-checker@1.0.0
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/davglass/license-checker
+│  ├─ licenseUrl: https://github.com/davglass/license-checker/raw/master/LICENSE
+│  └─ parents: server
+├─ liftoff@2.5.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/js-cli/js-liftoff
+│  ├─ licenseUrl: https://github.com/js-cli/js-liftoff/raw/master/LICENSE
+│  └─ parents: server
+├─ lodash._basecopy@3.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE.txt
+│  └─ parents: server
+├─ lodash._basetostring@3.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE
+│  └─ parents: server
+├─ lodash._basevalues@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE.txt
+│  └─ parents: server
+├─ lodash._getnative@3.9.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE
+│  └─ parents: server
+├─ lodash._isiterateecall@3.0.9
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE.txt
+│  └─ parents: server
+├─ lodash._reescape@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE.txt
+│  └─ parents: server
+├─ lodash._reevaluate@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE.txt
+│  └─ parents: server
+├─ lodash._reinterpolate@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE.txt
+│  └─ parents: server
+├─ lodash._root@3.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE
+│  └─ parents: server
+├─ lodash.assign@4.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE
+│  └─ parents: server
+├─ lodash.escape@3.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE
+│  └─ parents: server
+├─ lodash.isarguments@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE
+│  └─ parents: server
+├─ lodash.isarray@3.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE
+│  └─ parents: server
+├─ lodash.isstring@4.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE
+│  └─ parents: server
+├─ lodash.keys@3.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE
+│  └─ parents: server
+├─ lodash.merge@4.6.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE
+│  └─ parents: server
+├─ lodash.restparam@3.6.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE.txt
+│  └─ parents: server
+├─ lodash.template@3.6.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE
+│  └─ parents: server
+├─ lodash.templatesettings@3.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE
+│  └─ parents: server
+├─ lodash@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE.txt
+│  └─ parents: glob-watcher:server
+├─ lodash@4.17.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ licenseUrl: https://github.com/lodash/lodash/raw/master/LICENSE
+│  └─ parents: server
+├─ loose-envify@1.3.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/zertosh/loose-envify
+│  ├─ licenseUrl: https://github.com/zertosh/loose-envify/raw/master/LICENSE
+│  └─ parents: server
+├─ lowercase-keys@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/lowercase-keys
+│  ├─ licenseUrl: https://github.com/sindresorhus/lowercase-keys
+│  └─ parents: server
+├─ lru-cache@2.7.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-lru-cache
+│  ├─ licenseUrl: https://github.com/isaacs/node-lru-cache/raw/master/LICENSE
+│  └─ parents: glob-watcher:server
+├─ lru-cache@4.1.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-lru-cache
+│  ├─ licenseUrl: https://github.com/isaacs/node-lru-cache/raw/master/LICENSE
+│  └─ parents: server
+├─ make-dir@1.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/make-dir
+│  ├─ licenseUrl: https://github.com/sindresorhus/make-dir/raw/master/license
+│  └─ parents: server
+├─ make-error-cause@1.2.2
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/blakeembrey/make-error-cause
+│  ├─ licenseUrl: https://github.com/blakeembrey/make-error-cause/raw/master/LICENSE
+│  └─ parents: server
+├─ make-error@1.3.4
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/JsCommunity/make-error
+│  ├─ licenseUrl: https://github.com/JsCommunity/make-error
+│  └─ parents: server
+├─ make-iterator@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/make-iterator
+│  ├─ licenseUrl: https://github.com/jonschlinkert/make-iterator/raw/master/LICENSE
+│  └─ parents: server
+├─ map-cache@0.2.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/map-cache
+│  ├─ licenseUrl: https://github.com/jonschlinkert/map-cache/raw/master/LICENSE
+│  └─ parents: server
+├─ map-stream@0.1.0
+│  ├─ licenses: UNKNOWN
+│  ├─ repository: https://github.com/dominictarr/map-stream
+│  ├─ licenseUrl: https://github.com/dominictarr/map-stream/raw/master/LICENCE
+│  └─ parents: server
+├─ map-visit@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/map-visit
+│  ├─ licenseUrl: https://github.com/jonschlinkert/map-visit/raw/master/LICENSE
+│  └─ parents: server
+├─ media-typer@0.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/media-typer
+│  ├─ licenseUrl: https://github.com/jshttp/media-typer/raw/master/LICENSE
+│  └─ parents: server
+├─ merge-descriptors@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/component/merge-descriptors
+│  ├─ licenseUrl: https://github.com/component/merge-descriptors/raw/master/LICENSE
+│  └─ parents: server
+├─ methods@1.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/methods
+│  ├─ licenseUrl: https://github.com/jshttp/methods/raw/master/LICENSE
+│  └─ parents: server
+├─ micromatch@2.3.11
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/micromatch
+│  ├─ licenseUrl: https://github.com/jonschlinkert/micromatch/raw/master/LICENSE
+│  └─ parents: server
+├─ micromatch@3.1.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromatch/micromatch
+│  ├─ licenseUrl: https://github.com/micromatch/micromatch/raw/master/LICENSE
+│  └─ parents: liftoff:server
+├─ micromatch@3.1.9
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromatch/micromatch
+│  ├─ licenseUrl: https://github.com/micromatch/micromatch/raw/master/LICENSE
+│  └─ parents: nodemon:server
+├─ mime-db@1.30.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/mime-db
+│  ├─ licenseUrl: https://github.com/jshttp/mime-db/raw/master/LICENSE
+│  └─ parents: server
+├─ mime-types@2.1.17
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/mime-types
+│  ├─ licenseUrl: https://github.com/jshttp/mime-types/raw/master/LICENSE
+│  └─ parents: server
+├─ mime@1.4.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/broofa/node-mime
+│  ├─ licenseUrl: https://github.com/broofa/node-mime/raw/master/LICENSE
+│  └─ parents: server
+├─ mimic-fn@1.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/mimic-fn
+│  ├─ licenseUrl: https://github.com/sindresorhus/mimic-fn/raw/master/license
+│  └─ parents: server
+├─ minimatch@0.2.14
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/isaacs/minimatch
+│  ├─ licenseUrl: http://github.com/isaacs/minimatch/raw/master/LICENSE
+│  └─ parents: glob-watcher:server
+├─ minimatch@2.0.10
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/minimatch
+│  ├─ licenseUrl: https://github.com/isaacs/minimatch/raw/master/LICENSE
+│  └─ parents: glob-stream:server
+├─ minimatch@3.0.4
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/minimatch
+│  ├─ licenseUrl: https://github.com/isaacs/minimatch/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ minimist@0.0.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/minimist
+│  ├─ licenseUrl: https://github.com/substack/minimist/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ minimist@1.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/minimist
+│  ├─ licenseUrl: https://github.com/substack/minimist/raw/master/LICENSE
+│  └─ parents: rc:sqlite3:server
+├─ mixin-deep@1.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/mixin-deep
+│  ├─ licenseUrl: https://github.com/jonschlinkert/mixin-deep/raw/master/LICENSE
+│  └─ parents: server
+├─ mkdirp@0.3.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/node-mkdirp
+│  ├─ licenseUrl: https://github.com/substack/node-mkdirp/raw/master/LICENSE
+│  └─ parents: license-checker:server
+├─ mkdirp@0.5.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/node-mkdirp
+│  ├─ licenseUrl: https://github.com/substack/node-mkdirp/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ moment@2.20.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/moment/moment
+│  ├─ licenseUrl: https://github.com/moment/moment/raw/master/LICENSE
+│  └─ parents: server
+├─ morgan@1.9.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/expressjs/morgan
+│  ├─ licenseUrl: https://github.com/expressjs/morgan/raw/master/LICENSE
+│  └─ parents: server
+├─ ms@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/zeit/ms
+│  ├─ licenseUrl: https://github.com/zeit/ms/raw/master/license.md
+│  └─ parents: server
+├─ multipipe@0.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/juliangruber/multipipe
+│  ├─ licenseUrl: https://github.com/juliangruber/multipipe
+│  └─ parents: server
+├─ mute-stream@0.0.7
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/mute-stream
+│  ├─ licenseUrl: https://github.com/isaacs/mute-stream/raw/master/LICENSE
+│  └─ parents: server
+├─ nan@2.7.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/nodejs/nan
+│  ├─ licenseUrl: https://github.com/nodejs/nan/raw/master/LICENSE.md
+│  └─ parents: server
+├─ nanomatch@1.2.7
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromatch/nanomatch
+│  ├─ licenseUrl: https://github.com/micromatch/nanomatch/raw/master/LICENSE
+│  └─ parents: server
+├─ nanomatch@1.2.9
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromatch/nanomatch
+│  ├─ licenseUrl: https://github.com/micromatch/nanomatch/raw/master/LICENSE
+│  └─ parents: nodemon:server
+├─ natives@1.1.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/natives
+│  ├─ licenseUrl: https://github.com/isaacs/natives
+│  └─ parents: server
+├─ natural-compare@1.4.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/litejs/natural-compare-lite
+│  ├─ licenseUrl: https://github.com/litejs/natural-compare-lite
+│  └─ parents: server
+├─ negotiator@0.6.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/negotiator
+│  ├─ licenseUrl: https://github.com/jshttp/negotiator/raw/master/LICENSE
+│  └─ parents: server
+├─ node-forge@0.7.2
+│  ├─ licenses: (BSD-3-Clause OR GPL-2.0)
+│  ├─ repository: https://github.com/digitalbazaar/forge
+│  ├─ licenseUrl: https://github.com/digitalbazaar/forge/raw/master/LICENSE
+│  └─ parents: server
+├─ node-pre-gyp@0.6.38
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/mapbox/node-pre-gyp
+│  ├─ licenseUrl: https://github.com/mapbox/node-pre-gyp/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ node-uuid@1.4.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/broofa/node-uuid
+│  ├─ licenseUrl: https://raw.github.com/broofa/node-uuid/master/LICENSE.md
+│  └─ parents: @slack/client:server
+├─ nodemon@1.17.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/remy/nodemon
+│  ├─ licenseUrl: https://github.com/remy/nodemon
+│  └─ parents: server
+├─ nopt-defaults@0.0.1
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/btmills/nopt-defaults
+│  ├─ licenseUrl: https://github.com/btmills/nopt-defaults/raw/master/LICENSE
+│  └─ parents: server
+├─ nopt-usage@0.1.0
+│  ├─ licenses: MIT
+│  └─ parents: server
+├─ nopt@1.0.10
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/isaacs/nopt
+│  ├─ licenseUrl: https://github.com/isaacs/nopt/raw/master/LICENSE
+│  └─ parents: server
+├─ nopt@2.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/isaacs/nopt
+│  ├─ licenseUrl: https://github.com/isaacs/nopt/raw/master/LICENSE
+│  └─ parents: license-checker:server
+├─ nopt@3.0.6
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/nopt
+│  ├─ licenseUrl: https://github.com/npm/nopt/raw/master/LICENSE
+│  └─ parents: npm-license-crawler:server
+├─ nopt@4.0.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/nopt
+│  ├─ licenseUrl: https://github.com/npm/nopt/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ normalize-package-data@1.0.3
+│  ├─ licenses: MIT*
+│  ├─ repository: https://github.com/meryn/normalize-package-data
+│  ├─ licenseUrl: https://github.com/meryn/normalize-package-data/raw/master/LICENSE
+│  └─ parents: server
+├─ normalize-path@2.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/normalize-path
+│  ├─ licenseUrl: https://github.com/jonschlinkert/normalize-path/raw/master/LICENSE
+│  └─ parents: server
+├─ npm-license-crawler@0.1.7
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/mwittig/npm-license-crawler
+│  ├─ licenseUrl: https://github.com/mwittig/npm-license-crawler/raw/master/LICENSE
+│  └─ parents: server
+├─ npm-run-path@2.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/npm-run-path
+│  ├─ licenseUrl: https://github.com/sindresorhus/npm-run-path/raw/master/license
+│  └─ parents: server
+├─ npmlog@4.1.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/npmlog
+│  ├─ licenseUrl: https://github.com/npm/npmlog/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ number-is-nan@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/number-is-nan
+│  ├─ licenseUrl: https://github.com/sindresorhus/number-is-nan/raw/master/license
+│  └─ parents: sqlite3:server
+├─ oauth-sign@0.8.2
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/mikeal/oauth-sign
+│  ├─ licenseUrl: https://github.com/mikeal/oauth-sign/raw/master/LICENSE
+│  └─ parents: server
+├─ object-assign@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/object-assign
+│  ├─ licenseUrl: https://github.com/sindresorhus/object-assign/raw/master/license
+│  └─ parents: gulp-util:server
+├─ object-assign@4.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/object-assign
+│  ├─ licenseUrl: https://github.com/sindresorhus/object-assign/raw/master/license
+│  └─ parents: sqlite3:server
+├─ object-copy@0.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/object-copy
+│  ├─ licenseUrl: https://github.com/jonschlinkert/object-copy/raw/master/LICENSE
+│  └─ parents: server
+├─ object-visit@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/object-visit
+│  ├─ licenseUrl: https://github.com/jonschlinkert/object-visit/raw/master/LICENSE
+│  └─ parents: server
+├─ object.defaults@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/object.defaults
+│  ├─ licenseUrl: https://github.com/jonschlinkert/object.defaults/raw/master/LICENSE
+│  └─ parents: server
+├─ object.map@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/object.map
+│  ├─ licenseUrl: https://github.com/jonschlinkert/object.map/raw/master/LICENSE
+│  └─ parents: server
+├─ object.omit@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/object.omit
+│  ├─ licenseUrl: https://github.com/jonschlinkert/object.omit/raw/master/LICENSE
+│  └─ parents: server
+├─ object.pick@1.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/object.pick
+│  ├─ licenseUrl: https://github.com/jonschlinkert/object.pick/raw/master/LICENSE
+│  └─ parents: server
+├─ on-finished@2.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/on-finished
+│  ├─ licenseUrl: https://github.com/jshttp/on-finished/raw/master/LICENSE
+│  └─ parents: server
+├─ on-headers@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/on-headers
+│  ├─ licenseUrl: https://github.com/jshttp/on-headers/raw/master/LICENSE
+│  └─ parents: server
+├─ once@1.3.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/once
+│  ├─ licenseUrl: https://github.com/isaacs/once/raw/master/LICENSE
+│  └─ parents: end-of-stream:server
+├─ once@1.4.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/once
+│  ├─ licenseUrl: https://github.com/isaacs/once/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ onetime@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/onetime
+│  ├─ licenseUrl: https://github.com/sindresorhus/onetime/raw/master/license
+│  └─ parents: server
+├─ optionator@0.8.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/gkz/optionator
+│  ├─ licenseUrl: https://github.com/gkz/optionator/raw/master/LICENSE
+│  └─ parents: server
+├─ options@0.0.6
+│  ├─ licenses: UNKNOWN
+│  ├─ repository: https://github.com/einaros/options.js
+│  ├─ licenseUrl: https://github.com/einaros/options.js
+│  └─ parents: server
+├─ orchestrator@0.3.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/robrich/orchestrator
+│  ├─ licenseUrl: https://github.com/robrich/orchestrator/raw/master/LICENSE
+│  └─ parents: server
+├─ ordered-read-streams@0.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/armed/ordered-read-streams
+│  ├─ licenseUrl: https://github.com/armed/ordered-read-streams/raw/master/LICENSE
+│  └─ parents: server
+├─ os-homedir@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/os-homedir
+│  ├─ licenseUrl: https://github.com/sindresorhus/os-homedir/raw/master/license
+│  └─ parents: sqlite3:server
+├─ os-tmpdir@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/os-tmpdir
+│  ├─ licenseUrl: https://github.com/sindresorhus/os-tmpdir/raw/master/license
+│  └─ parents: sqlite3:server
+├─ os-utils@0.0.14
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/oscmejia/os-utils
+│  ├─ licenseUrl: https://github.com/oscmejia/os-utils/raw/master/LICENSE
+│  └─ parents: server
+├─ osenv@0.1.4
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/osenv
+│  ├─ licenseUrl: https://github.com/npm/osenv/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ output-file-sync@1.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/shinnn/output-file-sync
+│  ├─ licenseUrl: https://github.com/shinnn/output-file-sync/raw/master/LICENSE
+│  └─ parents: server
+├─ p-finally@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/p-finally
+│  ├─ licenseUrl: https://github.com/sindresorhus/p-finally/raw/master/license
+│  └─ parents: server
+├─ package-json@4.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/package-json
+│  ├─ licenseUrl: https://github.com/sindresorhus/package-json/raw/master/license
+│  └─ parents: server
+├─ parse-filepath@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/parse-filepath
+│  ├─ licenseUrl: https://github.com/jonschlinkert/parse-filepath/raw/master/LICENSE
+│  └─ parents: server
+├─ parse-glob@3.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/parse-glob
+│  ├─ licenseUrl: https://github.com/jonschlinkert/parse-glob/raw/master/LICENSE
+│  └─ parents: server
+├─ parse-passwd@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/doowb/parse-passwd
+│  ├─ licenseUrl: https://github.com/doowb/parse-passwd/raw/master/LICENSE
+│  └─ parents: server
+├─ parseurl@1.3.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pillarjs/parseurl
+│  ├─ licenseUrl: https://github.com/pillarjs/parseurl/raw/master/LICENSE
+│  └─ parents: server
+├─ pascalcase@0.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/pascalcase
+│  ├─ licenseUrl: https://github.com/jonschlinkert/pascalcase/raw/master/LICENSE
+│  └─ parents: server
+├─ path-dirname@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/es128/path-dirname
+│  ├─ licenseUrl: https://github.com/es128/path-dirname/raw/master/license
+│  └─ parents: server
+├─ path-is-absolute@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/path-is-absolute
+│  ├─ licenseUrl: https://github.com/sindresorhus/path-is-absolute/raw/master/license
+│  └─ parents: sqlite3:server
+├─ path-is-inside@1.0.2
+│  ├─ licenses: (WTFPL OR MIT)
+│  ├─ repository: https://github.com/domenic/path-is-inside
+│  ├─ licenseUrl: https://github.com/domenic/path-is-inside/raw/master/LICENSE.txt
+│  └─ parents: server
+├─ path-key@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/path-key
+│  ├─ licenseUrl: https://github.com/sindresorhus/path-key/raw/master/license
+│  └─ parents: server
+├─ path-parse@1.0.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jbgutierrez/path-parse
+│  ├─ licenseUrl: https://github.com/jbgutierrez/path-parse
+│  └─ parents: server
+├─ path-root-regex@0.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/regexhq/path-root-regex
+│  ├─ licenseUrl: https://github.com/regexhq/path-root-regex/raw/master/LICENSE
+│  └─ parents: server
+├─ path-root@0.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/path-root
+│  ├─ licenseUrl: https://github.com/jonschlinkert/path-root/raw/master/LICENSE
+│  └─ parents: server
+├─ path-to-regexp@0.1.7
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/component/path-to-regexp
+│  ├─ licenseUrl: https://github.com/component/path-to-regexp/raw/master/LICENSE
+│  └─ parents: server
+├─ pause-stream@0.0.11
+│  ├─ licenses: MIT,Apache2
+│  ├─ repository: https://github.com/dominictarr/pause-stream
+│  ├─ licenseUrl: ,
+│  └─ parents: server
+├─ performance-now@0.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/meryn/performance-now
+│  ├─ licenseUrl: https://github.com/meryn/performance-now/raw/master/license.txt
+│  └─ parents: sqlite3:server
+├─ performance-now@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/braveg1rl/performance-now
+│  ├─ licenseUrl: https://github.com/braveg1rl/performance-now/raw/master/license.txt
+│  └─ parents: server
+├─ pify@2.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/pify
+│  ├─ licenseUrl: https://github.com/sindresorhus/pify/raw/master/license
+│  └─ parents: server
+├─ pify@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/pify
+│  ├─ licenseUrl: https://github.com/sindresorhus/pify/raw/master/license
+│  └─ parents: make-dir:server
+├─ ping@0.2.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/danielzzz/node-ping
+│  ├─ licenseUrl: https://github.com/danielzzz/node-ping/raw/master/LICENSE
+│  └─ parents: server
+├─ pinkie-promise@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/floatdrop/pinkie-promise
+│  ├─ licenseUrl: https://github.com/floatdrop/pinkie-promise/raw/master/license
+│  └─ parents: server
+├─ pinkie@2.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/floatdrop/pinkie
+│  ├─ licenseUrl: https://github.com/floatdrop/pinkie/raw/master/license
+│  └─ parents: server
+├─ pkginfo@0.4.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/indexzero/node-pkginfo
+│  ├─ licenseUrl: https://github.com/indexzero/node-pkginfo/raw/master/LICENSE
+│  └─ parents: server
+├─ plugin-error@0.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/plugin-error
+│  ├─ licenseUrl: https://github.com/jonschlinkert/plugin-error/raw/master/LICENSE
+│  └─ parents: server
+├─ plugin-error@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/gulpjs/plugin-error
+│  ├─ licenseUrl: https://github.com/gulpjs/plugin-error/raw/master/LICENSE
+│  └─ parents: gulp-babel:server
+├─ pluralize@7.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/blakeembrey/pluralize
+│  ├─ licenseUrl: https://github.com/blakeembrey/pluralize/raw/master/LICENSE
+│  └─ parents: server
+├─ posix-character-classes@0.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/posix-character-classes
+│  ├─ licenseUrl: https://github.com/jonschlinkert/posix-character-classes/raw/master/LICENSE
+│  └─ parents: server
+├─ prelude-ls@1.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/gkz/prelude-ls
+│  ├─ licenseUrl: https://raw.github.com/gkz/prelude-ls/master/LICENSE
+│  └─ parents: server
+├─ prepend-http@1.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/prepend-http
+│  ├─ licenseUrl: https://github.com/sindresorhus/prepend-http/raw/master/license
+│  └─ parents: server
+├─ preserve@0.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/preserve
+│  ├─ licenseUrl: https://github.com/jonschlinkert/preserve/blob/master/LICENSE-MIT
+│  └─ parents: server
+├─ pretty-hrtime@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/robrich/pretty-hrtime
+│  ├─ licenseUrl: https://github.com/robrich/pretty-hrtime/raw/master/LICENSE
+│  └─ parents: server
+├─ private@0.1.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/benjamn/private
+│  ├─ licenseUrl: https://github.com/benjamn/private/raw/master/LICENSE
+│  └─ parents: server
+├─ process-nextick-args@1.0.7
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/calvinmetcalf/process-nextick-args
+│  ├─ licenseUrl: https://github.com/calvinmetcalf/process-nextick-args/raw/master/license.md
+│  └─ parents: sqlite3:server
+├─ progress@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/visionmedia/node-progress
+│  ├─ licenseUrl: https://github.com/visionmedia/node-progress/raw/master/LICENSE
+│  └─ parents: server
+├─ proxy-addr@2.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/proxy-addr
+│  ├─ licenseUrl: https://github.com/jshttp/proxy-addr/raw/master/LICENSE
+│  └─ parents: server
+├─ ps-tree@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/indexzero/ps-tree
+│  ├─ licenseUrl: https://github.com/indexzero/ps-tree/raw/master/LICENSE
+│  └─ parents: server
+├─ pseudomap@1.0.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/pseudomap
+│  ├─ licenseUrl: https://github.com/isaacs/pseudomap/raw/master/LICENSE
+│  └─ parents: server
+├─ pstree.remy@1.1.0
+│  ├─ licenses: MIT
+│  └─ parents: server
+├─ punycode@1.4.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/bestiejs/punycode.js
+│  ├─ licenseUrl: https://github.com/bestiejs/punycode.js/raw/master/LICENSE-MIT.txt
+│  └─ parents: server
+├─ q@1.5.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/kriskowal/q
+│  ├─ licenseUrl: https://github.com/kriskowal/q/raw/master/LICENSE
+│  └─ parents: server
+├─ qs@6.3.2
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/ljharb/qs
+│  ├─ licenseUrl: https://github.com/ljharb/qs/raw/master/LICENSE
+│  └─ parents: @slack/client:server
+├─ qs@6.4.0
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/ljharb/qs
+│  ├─ licenseUrl: https://github.com/ljharb/qs/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ qs@6.5.1
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/ljharb/qs
+│  ├─ licenseUrl: https://github.com/ljharb/qs/raw/master/LICENSE
+│  └─ parents: server
+├─ randomatic@1.1.7
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/randomatic
+│  ├─ licenseUrl: https://github.com/jonschlinkert/randomatic/raw/master/LICENSE
+│  └─ parents: server
+├─ range-parser@1.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/range-parser
+│  ├─ licenseUrl: https://github.com/jshttp/range-parser/raw/master/LICENSE
+│  └─ parents: server
+├─ raw-body@2.3.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/stream-utils/raw-body
+│  ├─ licenseUrl: https://github.com/stream-utils/raw-body/raw/master/LICENSE
+│  └─ parents: server
+├─ rc@1.2.1
+│  ├─ licenses: (BSD-2-Clause OR MIT OR Apache-2.0)
+│  ├─ repository: https://github.com/dominictarr/rc
+│  ├─ licenseUrl: https://github.com/dominictarr/rc/raw/master/LICENSE.APACHE2
+│  └─ parents: sqlite3:server
+├─ rc@1.2.5
+│  ├─ licenses: (BSD-2-Clause OR MIT OR Apache-2.0)
+│  ├─ repository: https://github.com/dominictarr/rc
+│  ├─ licenseUrl: https://github.com/dominictarr/rc/raw/master/LICENSE.APACHE2
+│  └─ parents: server
+├─ read-installed@3.1.5
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/read-installed
+│  ├─ licenseUrl: https://github.com/isaacs/read-installed/raw/master/LICENSE
+│  └─ parents: server
+├─ read-package-json@1.3.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/read-package-json
+│  ├─ licenseUrl: https://github.com/isaacs/read-package-json/raw/master/LICENSE
+│  └─ parents: server
+├─ readable-stream@1.0.34
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/isaacs/readable-stream
+│  ├─ licenseUrl: https://github.com/isaacs/readable-stream/raw/master/LICENSE
+│  └─ parents: glob-stream:server
+├─ readable-stream@1.1.14
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/isaacs/readable-stream
+│  ├─ licenseUrl: https://github.com/isaacs/readable-stream/raw/master/LICENSE
+│  └─ parents: multipipe:server
+├─ readable-stream@2.3.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/nodejs/readable-stream
+│  ├─ licenseUrl: https://github.com/nodejs/readable-stream/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ readdir-scoped-modules@1.0.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/readdir-scoped-modules
+│  ├─ licenseUrl: https://github.com/npm/readdir-scoped-modules/raw/master/LICENSE
+│  └─ parents: server
+├─ readdirp@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/thlorenz/readdirp
+│  ├─ licenseUrl: https://github.com/thlorenz/readdirp/raw/master/LICENSE
+│  └─ parents: server
+├─ rechoir@0.6.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/tkellen/node-rechoir
+│  ├─ licenseUrl: https://github.com/tkellen/node-rechoir/blob/master/LICENSE
+│  └─ parents: server
+├─ regenerate@1.3.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mathiasbynens/regenerate
+│  ├─ licenseUrl: https://github.com/mathiasbynens/regenerate/raw/master/LICENSE-MIT.txt
+│  └─ parents: server
+├─ regenerator-runtime@0.10.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime
+│  ├─ licenseUrl: https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime
+│  └─ parents: babel-polyfill:server
+├─ regenerator-runtime@0.11.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime
+│  ├─ licenseUrl: https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime
+│  └─ parents: server
+├─ regenerator-transform@0.10.1
+│  ├─ licenses: BSD
+│  ├─ repository: https://github.com/facebook/regenerator/tree/master/packages/regenerator-transform
+│  ├─ licenseUrl: https://github.com/facebook/regenerator/tree/master/packages/regenerator-transform
+│  └─ parents: server
+├─ regex-cache@0.4.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/regex-cache
+│  ├─ licenseUrl: https://github.com/jonschlinkert/regex-cache/raw/master/LICENSE
+│  └─ parents: server
+├─ regex-not@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/regex-not
+│  ├─ licenseUrl: https://github.com/jonschlinkert/regex-not/raw/master/LICENSE
+│  └─ parents: server
+├─ regexpu-core@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mathiasbynens/regexpu-core
+│  ├─ licenseUrl: https://github.com/mathiasbynens/regexpu-core/raw/master/LICENSE-MIT.txt
+│  └─ parents: server
+├─ registry-auth-token@3.3.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rexxars/registry-auth-token
+│  ├─ licenseUrl: https://github.com/rexxars/registry-auth-token/raw/master/LICENSE
+│  └─ parents: server
+├─ registry-url@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/registry-url
+│  ├─ licenseUrl: https://github.com/sindresorhus/registry-url/raw/master/license
+│  └─ parents: server
+├─ regjsgen@0.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/d10/regjsgen
+│  ├─ licenseUrl: https://github.com/d10/regjsgen/raw/master/LICENSE.txt
+│  └─ parents: server
+├─ regjsparser@0.1.5
+│  ├─ licenses: BSD
+│  ├─ repository: https://github.com/jviereck/regjsparser
+│  ├─ licenseUrl: https://github.com/jviereck/regjsparser/raw/master/LICENSE.BSD
+│  └─ parents: server
+├─ remove-trailing-separator@1.1.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/darsain/remove-trailing-separator
+│  ├─ licenseUrl: https://github.com/darsain/remove-trailing-separator/raw/master/license
+│  └─ parents: server
+├─ repeat-element@1.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/repeat-element
+│  ├─ licenseUrl: https://github.com/jonschlinkert/repeat-element/blob/master/LICENSE
+│  └─ parents: server
+├─ repeat-string@1.6.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/repeat-string
+│  ├─ licenseUrl: https://github.com/jonschlinkert/repeat-string/raw/master/LICENSE
+│  └─ parents: server
+├─ repeating@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/repeating
+│  ├─ licenseUrl: https://github.com/sindresorhus/repeating/raw/master/license
+│  └─ parents: server
+├─ replace-ext@0.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/wearefractal/replace-ext
+│  ├─ licenseUrl: http://github.com/wearefractal/replace-ext/raw/master/LICENSE
+│  └─ parents: server
+├─ request@2.76.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/request/request
+│  ├─ licenseUrl: https://github.com/request/request/raw/master/LICENSE
+│  └─ parents: @slack/client:server
+├─ request@2.81.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/request/request
+│  ├─ licenseUrl: https://github.com/request/request/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ request@2.83.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/request/request
+│  ├─ licenseUrl: https://github.com/request/request/raw/master/LICENSE
+│  └─ parents: server
+├─ require-uncached@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/require-uncached
+│  ├─ licenseUrl: https://github.com/sindresorhus/require-uncached/raw/master/license
+│  └─ parents: server
+├─ resolve-dir@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/resolve-dir
+│  ├─ licenseUrl: https://github.com/jonschlinkert/resolve-dir/raw/master/LICENSE
+│  └─ parents: server
+├─ resolve-from@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/resolve-from
+│  ├─ licenseUrl: https://github.com/sindresorhus/resolve-from/raw/master/license
+│  └─ parents: server
+├─ resolve-url@0.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lydell/resolve-url
+│  ├─ licenseUrl: https://github.com/lydell/resolve-url/raw/master/LICENSE
+│  └─ parents: server
+├─ resolve@1.5.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/browserify/node-resolve
+│  ├─ licenseUrl: https://github.com/browserify/node-resolve/raw/master/LICENSE
+│  └─ parents: server
+├─ restore-cursor@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/restore-cursor
+│  ├─ licenseUrl: https://github.com/sindresorhus/restore-cursor/raw/master/license
+│  └─ parents: server
+├─ retry@0.9.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/tim-kos/node-retry
+│  ├─ licenseUrl: https://github.com/tim-kos/node-retry/raw/master/License
+│  └─ parents: server
+├─ rimraf@2.6.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/rimraf
+│  ├─ licenseUrl: https://github.com/isaacs/rimraf/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ run-async@2.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sboudrias/run-async
+│  ├─ licenseUrl: https://github.com/sboudrias/run-async/raw/master/LICENSE
+│  └─ parents: server
+├─ rx-lite-aggregates@4.0.8
+│  ├─ licenses: Apache License, Version 2.0
+│  ├─ repository: https://github.com/Reactive-Extensions/RxJS
+│  ├─ licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.html
+│  └─ parents: server
+├─ rx-lite@4.0.8
+│  ├─ licenses: Apache License, Version 2.0
+│  ├─ repository: https://github.com/Reactive-Extensions/RxJS
+│  ├─ licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.html
+│  └─ parents: server
+├─ safe-buffer@5.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/feross/safe-buffer
+│  ├─ licenseUrl: https://github.com/feross/safe-buffer/raw/master/LICENSE
+│  └─ parents: server
+├─ sax@1.2.4
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/sax-js
+│  ├─ licenseUrl: https://github.com/isaacs/sax-js/raw/master/LICENSE
+│  └─ parents: server
+├─ semver-diff@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/semver-diff
+│  ├─ licenseUrl: https://github.com/sindresorhus/semver-diff/raw/master/license
+│  └─ parents: server
+├─ semver@4.3.6
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/node-semver
+│  ├─ licenseUrl: https://github.com/npm/node-semver/raw/master/LICENSE
+│  └─ parents: gulp:server
+├─ semver@5.0.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/node-semver
+│  ├─ licenseUrl: https://github.com/npm/node-semver/raw/master/LICENSE
+│  └─ parents: agent-base:server
+├─ semver@5.4.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/node-semver
+│  ├─ licenseUrl: https://github.com/npm/node-semver/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ semver@5.5.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/node-semver
+│  ├─ licenseUrl: https://github.com/npm/node-semver/raw/master/LICENSE
+│  └─ parents: nodemon:server
+├─ send@0.16.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/pillarjs/send
+│  ├─ licenseUrl: https://github.com/pillarjs/send/raw/master/LICENSE
+│  └─ parents: server
+├─ sequencify@0.0.7
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/robrich/sequencify
+│  ├─ licenseUrl: http://github.com/robrich/sequencify/raw/master/LICENSE
+│  └─ parents: server
+├─ serve-static@1.13.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/expressjs/serve-static
+│  ├─ licenseUrl: https://github.com/expressjs/serve-static/raw/master/LICENSE
+│  └─ parents: server
+├─ server@1.0.0
+│  ├─ licenses: ISC
+│  └─ parents: UNDEFINED
+├─ set-blocking@2.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/yargs/set-blocking
+│  ├─ licenseUrl: https://github.com/yargs/set-blocking/raw/master/LICENSE.txt
+│  └─ parents: sqlite3:server
+├─ set-getter@0.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/doowb/set-getter
+│  ├─ licenseUrl: https://github.com/doowb/set-getter/raw/master/LICENSE
+│  └─ parents: server
+├─ set-immediate-shim@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/set-immediate-shim
+│  ├─ licenseUrl: https://github.com/sindresorhus/set-immediate-shim
+│  └─ parents: server
+├─ set-value@0.4.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/set-value
+│  ├─ licenseUrl: https://github.com/jonschlinkert/set-value/raw/master/LICENSE
+│  └─ parents: union-value:server
+├─ set-value@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/set-value
+│  ├─ licenseUrl: https://github.com/jonschlinkert/set-value/raw/master/LICENSE
+│  └─ parents: server
+├─ setprototypeof@1.0.3
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/wesleytodd/setprototypeof
+│  ├─ licenseUrl: https://github.com/wesleytodd/setprototypeof/raw/master/LICENSE
+│  └─ parents: http-errors:server
+├─ setprototypeof@1.1.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/wesleytodd/setprototypeof
+│  ├─ licenseUrl: https://github.com/wesleytodd/setprototypeof/raw/master/LICENSE
+│  └─ parents: server
+├─ shebang-command@1.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/kevva/shebang-command
+│  ├─ licenseUrl: https://github.com/kevva/shebang-command/raw/master/license
+│  └─ parents: server
+├─ shebang-regex@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/shebang-regex
+│  ├─ licenseUrl: https://github.com/sindresorhus/shebang-regex/raw/master/license
+│  └─ parents: server
+├─ sigmund@1.0.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/sigmund
+│  ├─ licenseUrl: https://github.com/isaacs/sigmund/raw/master/LICENSE
+│  └─ parents: server
+├─ signal-exit@3.0.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/tapjs/signal-exit
+│  ├─ licenseUrl: https://github.com/tapjs/signal-exit/raw/master/LICENSE.txt
+│  └─ parents: sqlite3:server
+├─ slash@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/slash
+│  ├─ licenseUrl: https://github.com/sindresorhus/slash
+│  └─ parents: server
+├─ slice-ansi@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/slice-ansi
+│  ├─ licenseUrl: https://github.com/chalk/slice-ansi/raw/master/license
+│  └─ parents: server
+├─ slide@1.1.6
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/slide-flow-control
+│  ├─ licenseUrl: https://github.com/isaacs/slide-flow-control/raw/master/LICENSE
+│  └─ parents: server
+├─ snapdragon-node@2.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/snapdragon-node
+│  ├─ licenseUrl: https://github.com/jonschlinkert/snapdragon-node/raw/master/LICENSE
+│  └─ parents: server
+├─ snapdragon-util@3.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/snapdragon-util
+│  ├─ licenseUrl: https://github.com/jonschlinkert/snapdragon-util/raw/master/LICENSE
+│  └─ parents: server
+├─ snapdragon@0.8.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/snapdragon
+│  ├─ licenseUrl: https://github.com/jonschlinkert/snapdragon/raw/master/LICENSE
+│  └─ parents: server
+├─ sntp@1.0.9
+│  ├─ licenses: BSD
+│  ├─ repository: https://github.com/hueniverse/sntp
+│  ├─ licenseUrl: http://github.com/hueniverse/sntp/raw/master/LICENSE
+│  └─ parents: @slack/client:server
+├─ sntp@2.1.0
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/hueniverse/sntp
+│  ├─ licenseUrl: https://github.com/hueniverse/sntp/raw/master/LICENSE
+│  └─ parents: server
+├─ source-map-resolve@0.5.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lydell/source-map-resolve
+│  ├─ licenseUrl: https://github.com/lydell/source-map-resolve/raw/master/LICENSE
+│  └─ parents: server
+├─ source-map-support@0.4.18
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/evanw/node-source-map-support
+│  ├─ licenseUrl: https://github.com/evanw/node-source-map-support/raw/master/LICENSE.md
+│  └─ parents: server
+├─ source-map-url@0.4.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lydell/source-map-url
+│  ├─ licenseUrl: https://github.com/lydell/source-map-url/raw/master/LICENSE
+│  └─ parents: server
+├─ source-map@0.5.7
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/mozilla/source-map
+│  ├─ licenseUrl: https://github.com/mozilla/source-map/raw/master/LICENSE
+│  └─ parents: server
+├─ source-map@0.6.1
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/mozilla/source-map
+│  ├─ licenseUrl: https://github.com/mozilla/source-map/raw/master/LICENSE
+│  └─ parents: uglify-js:server
+├─ sparkles@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/phated/sparkles
+│  ├─ licenseUrl: https://github.com/phated/sparkles/raw/master/LICENSE
+│  └─ parents: server
+├─ split-string@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/split-string
+│  ├─ licenseUrl: https://github.com/jonschlinkert/split-string/raw/master/LICENSE
+│  └─ parents: server
+├─ split@0.3.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/dominictarr/split
+│  ├─ licenseUrl: https://github.com/dominictarr/split/raw/master/LICENCE
+│  └─ parents: server
+├─ sprintf-js@1.0.3
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/alexei/sprintf.js
+│  ├─ licenseUrl: https://github.com/alexei/sprintf.js/raw/master/LICENSE
+│  └─ parents: server
+├─ sqlite3@3.1.13
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/mapbox/node-sqlite3
+│  ├─ licenseUrl: https://github.com/mapbox/node-sqlite3/raw/master/LICENSE
+│  └─ parents: server
+├─ sqlite@2.9.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/kriasoft/node-sqlite
+│  ├─ licenseUrl: https://github.com/kriasoft/node-sqlite/raw/master/LICENSE.txt
+│  └─ parents: server
+├─ sshpk@1.13.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/arekinath/node-sshpk
+│  ├─ licenseUrl: https://github.com/arekinath/node-sshpk/raw/master/LICENSE
+│  └─ parents: server
+├─ stack-trace@0.0.10
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/felixge/node-stack-trace
+│  ├─ licenseUrl: https://github.com/felixge/node-stack-trace/raw/master/License
+│  └─ parents: server
+├─ static-extend@0.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/static-extend
+│  ├─ licenseUrl: https://github.com/jonschlinkert/static-extend/raw/master/LICENSE
+│  └─ parents: server
+├─ statuses@1.3.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/statuses
+│  ├─ licenseUrl: https://github.com/jshttp/statuses/raw/master/LICENSE
+│  └─ parents: server
+├─ stream-combiner@0.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/dominictarr/stream-combiner
+│  ├─ licenseUrl: https://github.com/dominictarr/stream-combiner/raw/master/LICENSE
+│  └─ parents: server
+├─ stream-consume@0.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/aroneous/stream-consume
+│  ├─ licenseUrl: https://github.com/aroneous/stream-consume
+│  └─ parents: server
+├─ stream@0.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/juliangruber/stream
+│  ├─ licenseUrl: https://github.com/juliangruber/stream
+│  └─ parents: server
+├─ string-template@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Matt-Esch/string-template
+│  ├─ licenseUrl: https://github.com/Matt-Esch/string-template/raw/master/LICENCE
+│  └─ parents: server
+├─ string-width@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/string-width
+│  ├─ licenseUrl: https://github.com/sindresorhus/string-width/raw/master/license
+│  └─ parents: sqlite3:server
+├─ string-width@2.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/string-width
+│  ├─ licenseUrl: https://github.com/sindresorhus/string-width/raw/master/license
+│  └─ parents: server
+├─ string_decoder@0.10.31
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rvagg/string_decoder
+│  ├─ licenseUrl: https://github.com/rvagg/string_decoder/raw/master/LICENSE
+│  └─ parents: multipipe:server
+├─ string_decoder@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rvagg/string_decoder
+│  ├─ licenseUrl: https://github.com/rvagg/string_decoder/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ stringstream@0.0.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/mhart/StringStream
+│  ├─ licenseUrl: https://github.com/mhart/StringStream/raw/master/LICENSE.txt
+│  └─ parents: server
+├─ strip-ansi@0.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/strip-ansi
+│  ├─ licenseUrl: https://github.com/sindresorhus/strip-ansi
+│  └─ parents: license-checker:server
+├─ strip-ansi@3.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/strip-ansi
+│  ├─ licenseUrl: https://github.com/chalk/strip-ansi/raw/master/license
+│  └─ parents: @slack/client:server
+├─ strip-ansi@4.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/strip-ansi
+│  ├─ licenseUrl: https://github.com/chalk/strip-ansi/raw/master/license
+│  └─ parents: server
+├─ strip-bom@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/strip-bom
+│  ├─ licenseUrl: https://github.com/sindresorhus/strip-bom
+│  └─ parents: server
+├─ strip-eof@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/strip-eof
+│  ├─ licenseUrl: https://github.com/sindresorhus/strip-eof/raw/master/license
+│  └─ parents: server
+├─ strip-json-comments@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/strip-json-comments
+│  ├─ licenseUrl: https://github.com/sindresorhus/strip-json-comments/raw/master/license
+│  └─ parents: sqlite3:server
+├─ supports-color@0.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/supports-color
+│  ├─ licenseUrl: https://github.com/sindresorhus/supports-color
+│  └─ parents: license-checker:server
+├─ supports-color@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/supports-color
+│  ├─ licenseUrl: https://github.com/chalk/supports-color/raw/master/license
+│  └─ parents: @slack/client:server
+├─ supports-color@5.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/chalk/supports-color
+│  ├─ licenseUrl: https://github.com/chalk/supports-color/raw/master/license
+│  └─ parents: server
+├─ table@4.0.3
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/gajus/table
+│  ├─ licenseUrl: https://github.com/gajus/table/raw/master/LICENSE
+│  └─ parents: server
+├─ tar-pack@3.4.0
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/ForbesLindesay/tar-pack
+│  ├─ licenseUrl: https://github.com/ForbesLindesay/tar-pack/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ tar@2.2.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-tar
+│  ├─ licenseUrl: https://github.com/isaacs/node-tar/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ term-size@1.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/term-size
+│  ├─ licenseUrl: https://github.com/sindresorhus/term-size/raw/master/license
+│  └─ parents: server
+├─ text-table@0.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/text-table
+│  ├─ licenseUrl: https://github.com/substack/text-table/raw/master/LICENSE
+│  └─ parents: server
+├─ through2@0.6.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rvagg/through2
+│  ├─ licenseUrl: https://github.com/rvagg/through2/raw/master/LICENSE
+│  └─ parents: glob-stream:server
+├─ through2@2.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rvagg/through2
+│  ├─ licenseUrl: https://github.com/rvagg/through2/raw/master/LICENSE.html
+│  └─ parents: server
+├─ through@2.3.8
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/dominictarr/through
+│  ├─ licenseUrl: https://github.com/dominictarr/through/raw/master/LICENSE.APACHE2
+│  └─ parents: server
+├─ tildify@1.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/tildify
+│  ├─ licenseUrl: https://github.com/sindresorhus/tildify/raw/master/license
+│  └─ parents: server
+├─ time-stamp@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/time-stamp
+│  ├─ licenseUrl: https://github.com/jonschlinkert/time-stamp/raw/master/LICENSE
+│  └─ parents: server
+├─ timed-out@4.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/floatdrop/timed-out
+│  ├─ licenseUrl: https://github.com/floatdrop/timed-out/raw/master/license
+│  └─ parents: server
+├─ tmp@0.0.33
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/raszi/node-tmp
+│  ├─ licenseUrl: https://github.com/raszi/node-tmp/raw/master/LICENSE
+│  └─ parents: server
+├─ to-fast-properties@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/to-fast-properties
+│  ├─ licenseUrl: https://github.com/sindresorhus/to-fast-properties/raw/master/license
+│  └─ parents: server
+├─ to-object-path@0.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/to-object-path
+│  ├─ licenseUrl: https://github.com/jonschlinkert/to-object-path/raw/master/LICENSE
+│  └─ parents: server
+├─ to-regex-range@2.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/micromatch/to-regex-range
+│  ├─ licenseUrl: https://github.com/micromatch/to-regex-range/raw/master/LICENSE
+│  └─ parents: server
+├─ to-regex@3.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/to-regex
+│  ├─ licenseUrl: https://github.com/jonschlinkert/to-regex/raw/master/LICENSE
+│  └─ parents: server
+├─ touch@3.1.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-touch
+│  ├─ licenseUrl: https://github.com/isaacs/node-touch/raw/master/LICENSE
+│  └─ parents: server
+├─ tough-cookie@2.3.3
+│  ├─ licenses: BSD-3-Clause
+│  ├─ repository: https://github.com/salesforce/tough-cookie
+│  ├─ licenseUrl: https://github.com/salesforce/tough-cookie/raw/master/LICENSE
+│  └─ parents: server
+├─ treeify@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/notatestuser/treeify
+│  ├─ licenseUrl: https://github.com/notatestuser/treeify/raw/master/LICENSE
+│  └─ parents: server
+├─ trim-right@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/trim-right
+│  ├─ licenseUrl: https://github.com/sindresorhus/trim-right/raw/master/license
+│  └─ parents: server
+├─ tunnel-agent@0.4.3
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/mikeal/tunnel-agent
+│  ├─ licenseUrl: https://github.com/mikeal/tunnel-agent/raw/master/LICENSE
+│  └─ parents: @slack/client:server
+├─ tunnel-agent@0.6.0
+│  ├─ licenses: Apache-2.0
+│  ├─ repository: https://github.com/mikeal/tunnel-agent
+│  ├─ licenseUrl: https://github.com/mikeal/tunnel-agent/raw/master/LICENSE
+│  └─ parents: server
+├─ tweetnacl@0.14.5
+│  ├─ licenses: Unlicense
+│  ├─ repository: https://github.com/dchest/tweetnacl-js
+│  ├─ licenseUrl: https://github.com/dchest/tweetnacl-js/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ type-check@0.3.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/gkz/type-check
+│  ├─ licenseUrl: https://github.com/gkz/type-check/raw/master/LICENSE
+│  └─ parents: server
+├─ type-is@1.6.15
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/type-is
+│  ├─ licenseUrl: https://github.com/jshttp/type-is/raw/master/LICENSE
+│  └─ parents: server
+├─ typedarray@0.0.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/typedarray
+│  ├─ licenseUrl: https://github.com/substack/typedarray/raw/master/LICENSE
+│  └─ parents: server
+├─ uglify-js@3.3.13
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/mishoo/UglifyJS2
+│  ├─ licenseUrl: https://github.com/mishoo/UglifyJS2/raw/master/LICENSE
+│  └─ parents: server
+├─ uid-number@0.0.6
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/uid-number
+│  ├─ licenseUrl: https://github.com/isaacs/uid-number/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ ultron@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/unshiftio/ultron
+│  ├─ licenseUrl: https://github.com/unshiftio/ultron/raw/master/LICENSE
+│  └─ parents: @slack/client:server
+├─ unc-path-regex@0.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/regexhq/unc-path-regex
+│  ├─ licenseUrl: https://github.com/regexhq/unc-path-regex/raw/master/LICENSE
+│  └─ parents: server
+├─ undefsafe@2.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/remy/undefsafe
+│  ├─ licenseUrl: https://github.com/remy/undefsafe/raw/master/LICENSE
+│  └─ parents: server
+├─ underscore@1.8.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jashkenas/underscore
+│  ├─ licenseUrl: https://github.com/jashkenas/underscore/raw/master/LICENSE
+│  └─ parents: ping:server
+├─ union-value@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/union-value
+│  ├─ licenseUrl: https://github.com/jonschlinkert/union-value/raw/master/LICENSE
+│  └─ parents: server
+├─ unique-stream@1.0.0
+│  ├─ licenses: BSD
+│  ├─ repository: https://github.com/eugeneware/unique-stream
+│  ├─ licenseUrl: https://github.com/eugeneware/unique-stream/raw/master/LICENSE
+│  └─ parents: server
+├─ unique-string@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/unique-string
+│  ├─ licenseUrl: https://github.com/sindresorhus/unique-string/raw/master/license
+│  └─ parents: server
+├─ unpipe@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/stream-utils/unpipe
+│  ├─ licenseUrl: https://github.com/stream-utils/unpipe/raw/master/LICENSE
+│  └─ parents: server
+├─ unset-value@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/unset-value
+│  ├─ licenseUrl: https://github.com/jonschlinkert/unset-value/raw/master/LICENSE
+│  └─ parents: server
+├─ unzip-response@2.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/unzip-response
+│  ├─ licenseUrl: https://github.com/sindresorhus/unzip-response/raw/master/license
+│  └─ parents: server
+├─ upath@1.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/anodynos/upath
+│  ├─ licenseUrl: https://github.com/anodynos/upath/raw/master/LICENSE
+│  └─ parents: server
+├─ update-notifier@2.3.0
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/yeoman/update-notifier
+│  ├─ licenseUrl: https://github.com/yeoman/update-notifier
+│  └─ parents: server
+├─ urix@0.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lydell/urix
+│  ├─ licenseUrl: https://github.com/lydell/urix/raw/master/LICENSE
+│  └─ parents: server
+├─ url-join@0.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jfromaniello/url-join
+│  ├─ licenseUrl: https://github.com/jfromaniello/url-join
+│  └─ parents: server
+├─ url-parse-lax@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/url-parse-lax
+│  ├─ licenseUrl: https://github.com/sindresorhus/url-parse-lax/raw/master/license
+│  └─ parents: server
+├─ use@2.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/use
+│  ├─ licenseUrl: https://github.com/jonschlinkert/use/raw/master/LICENSE
+│  └─ parents: server
+├─ user-home@1.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/user-home
+│  ├─ licenseUrl: https://github.com/sindresorhus/user-home/raw/master/license
+│  └─ parents: server
+├─ util-deprecate@1.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/TooTallNate/util-deprecate
+│  ├─ licenseUrl: https://github.com/TooTallNate/util-deprecate/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ util-extend@1.0.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/isaacs/util-extend
+│  ├─ licenseUrl: https://github.com/isaacs/util-extend/raw/master/LICENSE
+│  └─ parents: server
+├─ utils-merge@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jaredhanson/utils-merge
+│  ├─ licenseUrl: https://github.com/jaredhanson/utils-merge/raw/master/LICENSE
+│  └─ parents: server
+├─ uuid@3.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/kelektiv/node-uuid
+│  ├─ licenseUrl: https://github.com/kelektiv/node-uuid/raw/master/LICENSE.md
+│  └─ parents: sqlite3:server
+├─ uuid@3.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/kelektiv/node-uuid
+│  ├─ licenseUrl: https://github.com/kelektiv/node-uuid/raw/master/LICENSE.md
+│  └─ parents: server
+├─ v8flags@2.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/tkellen/node-v8flags
+│  ├─ licenseUrl: https://github.com/tkellen/node-v8flags/blob/master/LICENSE
+│  └─ parents: server
+├─ vary@1.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jshttp/vary
+│  ├─ licenseUrl: https://github.com/jshttp/vary/raw/master/LICENSE
+│  └─ parents: server
+├─ verror@1.10.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/davepacheco/node-verror
+│  ├─ licenseUrl: https://github.com/davepacheco/node-verror/raw/master/LICENSE
+│  └─ parents: server
+├─ vinyl-fs@0.3.14
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/wearefractal/vinyl-fs
+│  ├─ licenseUrl: http://github.com/wearefractal/vinyl-fs/raw/master/LICENSE
+│  └─ parents: server
+├─ vinyl-sourcemaps-apply@0.2.1
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/floridoo/vinyl-sourcemaps-apply
+│  ├─ licenseUrl: https://github.com/floridoo/vinyl-sourcemaps-apply
+│  └─ parents: server
+├─ vinyl@0.4.6
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/wearefractal/vinyl
+│  ├─ licenseUrl: http://github.com/wearefractal/vinyl/raw/master/LICENSE
+│  └─ parents: vinyl-fs:server
+├─ vinyl@0.5.3
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/wearefractal/vinyl
+│  ├─ licenseUrl: https://github.com/wearefractal/vinyl/raw/master/LICENSE
+│  └─ parents: server
+├─ which@1.3.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/isaacs/node-which
+│  ├─ licenseUrl: https://github.com/isaacs/node-which/raw/master/LICENSE
+│  └─ parents: server
+├─ wide-align@1.1.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/iarna/wide-align
+│  ├─ licenseUrl: https://github.com/iarna/wide-align/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ widest-line@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/widest-line
+│  ├─ licenseUrl: https://github.com/sindresorhus/widest-line/raw/master/license
+│  └─ parents: server
+├─ winston@2.4.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/winstonjs/winston
+│  ├─ licenseUrl: https://github.com/winstonjs/winston/raw/master/LICENSE
+│  └─ parents: server
+├─ wordwrap@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/substack/node-wordwrap
+│  ├─ licenseUrl: https://github.com/substack/node-wordwrap/raw/master/LICENSE
+│  └─ parents: server
+├─ wrappy@1.0.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/wrappy
+│  ├─ licenseUrl: https://github.com/npm/wrappy/raw/master/LICENSE
+│  └─ parents: sqlite3:server
+├─ write-file-atomic@2.3.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/iarna/write-file-atomic
+│  ├─ licenseUrl: https://github.com/iarna/write-file-atomic/raw/master/LICENSE
+│  └─ parents: server
+├─ write@0.2.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/jonschlinkert/write
+│  ├─ licenseUrl: https://github.com/jonschlinkert/write/raw/master/LICENSE
+│  └─ parents: server
+├─ ws@1.1.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/websockets/ws
+│  ├─ licenseUrl: https://github.com/websockets/ws
+│  └─ parents: @slack/client:server
+├─ xdg-basedir@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/xdg-basedir
+│  ├─ licenseUrl: https://github.com/sindresorhus/xdg-basedir/raw/master/license
+│  └─ parents: server
+├─ xml2js@0.4.19
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Leonidas-from-XIV/node-xml2js
+│  ├─ licenseUrl: https://github.com/Leonidas-from-XIV/node-xml2js/raw/master/LICENSE
+│  └─ parents: server
+├─ xmlbuilder@9.0.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/oozcitak/xmlbuilder-js
+│  ├─ licenseUrl: https://github.com/oozcitak/xmlbuilder-js/raw/master/LICENSE
+│  └─ parents: server
+├─ xtend@4.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/Raynos/xtend
+│  ├─ licenseUrl: https://github.com/Raynos/xtend/raw/master/LICENCE
+│  └─ parents: server
+└─ yallist@2.1.2
+   ├─ licenses: ISC
+   ├─ repository: https://github.com/isaacs/yallist
+   ├─ licenseUrl: https://github.com/isaacs/yallist/raw/master/LICENSE
+   └─ parents: server

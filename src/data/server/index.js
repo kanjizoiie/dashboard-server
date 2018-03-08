@@ -1,12 +1,11 @@
 import express from 'express';
 import Google from './google';
-import dataGetter from './dataGetter';
-import fileSystem from 'fs';
+import Data from './data';
 
 //Create a new router.
 let router = express.Router();
 
-let data = new dataGetter();
+let data = new Data();
 let google = new Google();
 let code = undefined;
 //Routes
@@ -16,23 +15,20 @@ router.get('/auth', (req, res, next) => {
     }
     else {
         code = req.query.code;
-        google.auth(code)
-        .then((result) => {
-            oauth2Client.credentials = result;
-            res.redirect(req.baseUrl);
-        }).catch((error) => console.log(error));
+        google.auth(code);
     }
 });
 
 // The default path.
 router.get('/', (req, res, next) => {
     Promise.all([
-        data.getServersArray()
+        data.getServersArray(),
+        data.getRecentAlerts()
     ])
-    .then((result) => {
-        console.log(result)
-        res.json(result);
-    })
+        .then((result) => {
+            console.log(result)
+            res.json(result);
+        })
 })
 
 router.get('/:id', (req, res, next) => {
@@ -60,9 +56,9 @@ router.get('/:id', (req, res, next) => {
 
 router.get('/:id/graph', (req, res, next) => {
     data.getGraphs(req.params.id)
-    .then((result) => {
-        res.json(result);
-    });
+        .then((result) => {
+            res.json(result);
+        });
 });
 
 module.exports = router;
