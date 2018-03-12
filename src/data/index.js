@@ -4,7 +4,7 @@ import axios from 'axios';
 import path from 'path';
 
 
-let options = require(path.join(__dirname, '../json/options.json'));
+let options = require('../json/options');
 let router = express.Router();
 let weather = '';
 

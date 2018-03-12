@@ -87,8 +87,7 @@ class Lights {
      * @memberof Lights
      */
     setLight(light, putObject) {
-        let ret = false;
-        console.log(putObject)
+        let ret = false
         if(this.bridgeFound) {
             axios.put('http://' + this.bridgeIP + '/api/' + this.username + '/lights/' + light + '/state', putObject)
             .then((resp) => {
