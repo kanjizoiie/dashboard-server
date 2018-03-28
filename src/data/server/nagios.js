@@ -1,6 +1,8 @@
 import axios from 'axios';
 import path from 'path';
-let auth = require('../../json/nagios.json');
+import database from './database';
+
+let auth = require(path.resolve('src/json/nagios.json'));
 class Nagios {
     static instance = null;
     constructor(serverHost) {
@@ -8,9 +10,12 @@ class Nagios {
             this.instance = this;
         }
         this.server = serverHost;
+        this.database = new database();
+        this.dbPromise = this.database.getDatabase();
         return this.instance;
     }
     
+
     /**
      * This function will fetch some plugin data from the servers nagios implementation.
      * 
@@ -21,7 +26,7 @@ class Nagios {
     fetchNagiosData(nagiosHostname, description) {
         return new Promise((resolve, reject) => {
             try {
-                return axios.get(this.server + '/nagios/cgi-bin/statusjson.cgi?query=service&hostname=' + nagiosHostname + '&servicedescription=' + description, {
+                return axios.get('https://' + this.server + '/nagios/cgi-bin/statusjson.cgi?query=service&hostname=' + nagiosHostname + '&servicedescription=' + description, {
                     auth: auth
                 })
                 .then((response, reason) => {
@@ -29,9 +34,9 @@ class Nagios {
                         resolve(response.data.data.service.plugin_output);
                     }
                     else {
-                        reject('Could not fetch nagios data');
+                        reject(response.data.result.message);
                     }
-                });
+                }).catch(console.error);
             }
             catch (error) {
                 reject(error)
@@ -39,11 +44,43 @@ class Nagios {
         })
     }
 
-    getNetworkThroughput(serverId) {
-        return dbPromise.then((db) => {
+    getHTTPStatus(serverId) {
+        return this.dbPromise.then((db) => {
             return db.get('SELECT * FROM servers WHERE (id = ?)', serverId)
             .then((row) => {
-                return fetchNagiosData(row.nagios, "Network+Throughput")
+                return this.fetchNagiosData(row.nagios, "HTTP")
+                .then((response) => {
+                    let res = response.replace(/:/g, '');
+                    res = res.split(' ');
+                    return ({
+                        status: res[1],
+                        message: response
+                    });
+                })
+                .catch((error) => {
+                    console.error(error + ' -> Trying HTTPS instead');
+                    return this.fetchNagiosData(row.nagios, "HTTPS")
+                    .then((response) => {
+                        let res = response.replace(/:/g, '');
+                        res = res.split(' ');
+                        return ({
+                            status: res[1],
+                            message: response
+                        });
+                    })
+                    .catch(console.error);
+                });
+            })
+            .catch(console.error);
+        })
+        .catch(console.error);
+    }
+
+    getNetworkThroughput(serverId) {
+        return this.dbPromise.then((db) => {
+            return db.get('SELECT * FROM servers WHERE (id = ?)', serverId)
+            .then((row) => {
+                return this.fetchNagiosData(row.nagios, "Network+Throughput")
                 .then((response) => {
                     let res = response.split(' ');
                     return ({
@@ -51,16 +88,16 @@ class Nagios {
                         out: Number(res[2])
                     });
                 })
-                .catch((reason) => console.log(reason));
+                .catch(console.error)
             });
         });
     }
     
     getCpuLoad(serverId) {
-        return dbPromise.then((db) => {
+        return this.dbPromise.then((db) => {
             return db.get('SELECT * FROM servers WHERE (id = ?)', serverId)
             .then((row) => {
-                return fetchNagiosData(row.nagios, "CPU+Load")
+                return this.fetchNagiosData(row.nagios, "CPU+Load")
                 .then((response) => {
                     let res = response.replace(/,/g, '');
                     res = res.split(' ');
@@ -70,25 +107,27 @@ class Nagios {
                         fifteen: Number(res[6])
                     });
                 })
-                .catch((reason) => console.log(reason));
+                .catch(console.error)
             });
         });
     }
     
     getMemoryLoad(serverId) {
-        return dbPromise.then((db) => {
+        return this.dbPromise.then((db) => {
             return db.get('SELECT * FROM servers WHERE (id = ?)', serverId)
             .then((row) => {
-                return fetchNagiosData(row.nagios, "Memory")
+                return this.fetchNagiosData(row.nagios, "Memory")
                 .then((response) => {
                     let res = response.replace(/%/g, '');
                     res = res.split(' ');
                     return (Number(res[3] / 100));
                 })
-                .catch((reason) => console.log(reason));
+                .catch(console.error)
             });
         });
     }
 }
+
+
 
 export default Nagios;

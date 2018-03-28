@@ -3,8 +3,7 @@ import moment from 'moment';
 import axios from 'axios';
 import path from 'path';
 
-
-let options = require(path.join(__dirname, '../json/options.json'));
+let options = require(path.resolve('src/json/options.json'));
 let router = express.Router();
 let weather = '';
 
@@ -14,11 +13,11 @@ router.use('/status', require('./status'));
 
 function fetchData() {
     axios.get('http://api.openweathermap.org/data/2.5/weather?q=' + options.weather.city + '&APPID=' + options.weather.key + '&units=' + options.weather.units)
-    .then((response) => {
-        weather = response.data; 
-    }).catch((reason) => {
-        weather = []
-    });
+        .then((response) => {
+            weather = response.data; 
+        }).catch((reason) => {
+            weather = []
+        });
     setTimeout(fetchData, 5000);
 }
 fetchData();
@@ -34,14 +33,14 @@ router.get('/', (req, res) => {
 
 router.get('/date', (req, res, next) => {
     res.json({
-       value: moment().format('DD-MM-YY'),
+        value: moment().format('DD-MM-YY'),
     });
 });
 
 
 router.get('/time', (req, res, next) => {
     res.json({
-       value: moment().format('HH:mm:ss')       
+        value: moment().format('HH:mm:ss')       
     });
 });
 

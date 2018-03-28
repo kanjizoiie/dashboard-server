@@ -1,15 +1,16 @@
 import sqlite from 'sqlite';
+import path from 'path';
 
 class Database {
-    static instance = null;
     constructor() {
         if (!this.instance) {
             this.instance = this;
         }
-        this.dbPromise = sqlite.open('./src/database/database.sqlite', { Promise });
+        this.dbPromise = sqlite.open(path.resolve('src/database/database.sqlite'), { Promise, cached: true });
         return this.instance;   
     }
-    async getDatabase() {
+
+    getDatabase() {
         return this.dbPromise;
     }
 }

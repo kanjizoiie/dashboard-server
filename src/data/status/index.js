@@ -1,19 +1,21 @@
 import express from 'express';
 import Slack from './slack';
 import path from 'path';
+import apicache from 'apicache';
+let cache = apicache.middleware;
 let router = express.Router();
-let slackToken = require('../../json/slack.json');
 
-router.get('/', (req, res) => {
-    let slackClient = new Slack(slackToken.token);
-    slackClient.getStatus().then((result) => {
-        return result.filter(elem => { return elem.real_name });
-    })
-    .then((result) => {
-        res.json({
-            status: result
+
+let slackToken = require(path.resolve('src/json/slack.json'));
+let slackClient = new Slack(slackToken.token);
+
+router.get('/', cache('6 minutes'), (req, res) => {
+    slackClient.getStatuses('C03PYF9EE')
+        .then((status) => {
+            res.json({
+                status
+            });
         });
-    });
 });
 
 module.exports = router;

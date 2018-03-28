@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.js --exec babel-node --ignore src/data/server/tokens.json",
-    "build": "gulp default",
+    "clean": "rm -rf dist/",
+    "build": "npm run clean & gulp default",
     "serve": "node dist/index.js"
   },
   "author": "",
@@ -14,21 +15,28 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-2": "^6.24.1",
-    "eslint": "^4.11.0",
+    "eslint": "^4.18.2",
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
     "gulp-copy": "^1.1.0",
-    "nodemon": "^1.12.1"
+    "gulp-license-crawler": "0.0.10",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "nodemon": "^1.17.1"
   },
   "dependencies": {
-    "@slack/client": "^3.16.0",
+    "@slack/client": "^4.0.0",
+    "apicache": "^1.2.1",
     "axios": "^0.17.1",
     "express": "^4.16.2",
-    "googleapis": "^23.0.0",
+    "googleapis": "^27.0.0",
+    "moment": "^2.21.0",
     "morgan": "^1.9.0",
     "os-utils": "0.0.14",
     "ping": "^0.2.2",
     "sqlite": "^2.9.1",
+    "sqlite3": "^3.1.13",
     "xml2js": "^0.4.19"
   },
   "optionalDependencies": {}
