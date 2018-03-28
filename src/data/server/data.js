@@ -1,23 +1,15 @@
-import google from './google';
-import nagios from './nagios';
 import database from './database';
 
 class Data {
     constructor() {
         this.database = new database();
         this.dbPromise = this.database.getDatabase();
-        this.nagiosFetcher = new nagios('https://overlord.realsprint.com');
-        this.googleFetcher = new google();
     }
 
     getServersArray() {
         return this.dbPromise.then((db) => {
             return db.all('SELECT id FROM servers').then((rows) => {
-                let arr = []
-                rows.forEach((row) => {
-                    arr.push(row.id);
-                });
-                return arr;
+                return rows;
             });
         });
     }
@@ -25,26 +17,25 @@ class Data {
     getRecentAlerts() {
         return this.dbPromise.then((db) => {
             return db.all('SELECT * FROM alerts ORDER BY insertionDate DESC LIMIT 5').then((rows) => {
-                let arr = []
-                rows.forEach((row) => {
-                    arr.push(row);
-                });
-                return arr;
-            });
-        });
+                return rows;
+            })
+            .catch(console.error);
+        })
+        .catch(console.error);
     }
 
     getUsers(serverId) {
         return this.dbPromise.then((db) => {
             return db.get('SELECT current FROM users WHERE id = ? ORDER BY insertionDate DESC LIMIT 1', serverId)
                 .then((value) => {
-                    if (value !== undefined) {
+                    if (value.current)
                         return value.current;
-                    } else {
+                    else 
                         return undefined;
-                    }
-                });
-        });
+                })
+                .catch(console.error);
+        })
+        .catch(console.error);
     }
 
     /**
@@ -65,8 +56,10 @@ class Data {
                     });
                     uptime = count / rows.length;
                     return uptime;
-                });
-        });
+                })
+                .catch(console.error);
+        })
+        .catch(console.error);
     }
 
     /**
@@ -80,17 +73,21 @@ class Data {
             return db.all('SELECT alerts.id, alerts.insertionDate, alertTypes.code, alertTypes.severity, alertTypes.message FROM alerts INNER JOIN alertTypes ON alertTypes.code = alerts.code AND alerts.id = ?', serverId)
                 .then((rows) => {
                     return rows;
-                });
-        });
+                })
+                .catch(console.error);
+        })
+        .catch(console.error);
     }
 
     getHostName(serverId) {
         return this.dbPromise.then((db) => {
-            return db.get('SELECT * FROM servers WHERE (id = ?)', serverId)
+            return db.get('SELECT hostname FROM servers WHERE (id = ?)', serverId)
                 .then((row) => {
-                    return row.hostname;
-                }).catch(err => console.log(err));
-        });
+                    return row;
+                })
+                .catch(console.error);
+        })
+        .catch(console.error);
     }
 
     getUp(serverId) {
@@ -113,48 +110,80 @@ class Data {
                                 return 0;
                             }
                         });
-                });
-        });
+                })
+                .catch(console.error);
+        })
+        .catch(console.error);
     }
 
     getGraphs(serverId) {
-        let traffic = {
-            time: [],
-            in: [],
-            out: []
-        };
-        let server = {
-            time: [],
-            cpu: [],
-            mem: []
-        };
         return this.dbPromise.then((db) => {
             return Promise.all([
-                db.all('SELECT * FROM traffic WHERE id = ? ORDER BY insertionDate DESC LIMIT 10', serverId).then((rows) => {
-                    rows.forEach((row) => {
-                        traffic.out.push(row.outgoing);
-                        traffic.in.push(row.ingoing);
-                        traffic.time.push(new Date(row.insertionDate));
-                    });
-                }),
-                db.all('SELECT * FROM cpu WHERE id = ? ORDER BY insertionDate DESC LIMIT 10', serverId).then((rows) => {
-                    rows.forEach((row) => {
-                        server.cpu.push(row.one * 100);
-                        server.time.push(new Date(row.insertionDate));
-                    });
-                }),
-                db.all('SELECT * FROM memory WHERE id = ? ORDER BY insertionDate DESC LIMIT 10', serverId).then((rows) => {
-                    rows.forEach((row) => {
-                        server.mem.push(row.memory * 100);
-                    });
-                })
-            ]).then(() => {
+                db.all('SELECT outgoing, ingoing, insertionDate FROM traffic WHERE id = ? ORDER BY insertionDate DESC LIMIT 20', serverId)
+                    .then((rows) => {
+                        if (rows.length <= 0) {
+                            return undefined;
+                        }
+                        return rows;
+                    }),
+                db.all('SELECT one, insertionDate FROM cpu WHERE id = ? ORDER BY insertionDate DESC LIMIT 20', serverId)
+                    .then((rows) => {
+                        if (rows.length <= 0) {
+                            return undefined;
+                        }
+                        return rows;
+                    }),
+                db.all('SELECT memory FROM memory WHERE id = ? ORDER BY insertionDate DESC LIMIT 20', serverId)
+                    .then((rows) => {
+                        if (rows.length <= 0) {
+                            return undefined;
+                        }
+                        return rows;
+                    })
+            ]).then((value) => {
+                let empty = false;
+                value.forEach((arr) => {
+                    if (!arr) {
+                        empty = true;
+                    }
+                });
+
+                if (empty) {                
+                    return false;
+                }
+
+                let traffic = {
+                    time: [],
+                    in: [],
+                    out: []
+                };
+                let server = {
+                    time: [],
+                    cpu: [],
+                    mem: []
+                };
+
+                value[0].forEach((row) => {
+                    traffic.out.push(row.outgoing);
+                    traffic.in.push(row.ingoing);
+                    traffic.time.push(new Date(row.insertionDate));
+                });
+                value[1].forEach((row) => {
+                    server.cpu.push(row.one * 100);
+                    server.time.push(new Date(row.insertionDate));
+                });
+                value[2].forEach((row) => {
+                    server.mem.push(row.memory * 100);
+                });
+
                 return ({
                     traffic: traffic,
                     server: server
                 });
-            });
-        });
+            })
+            .catch(console.error);
+        })
+        .catch(console.error);
     }
 }
 

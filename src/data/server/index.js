@@ -1,9 +1,12 @@
 import express from 'express';
 import Google from './google';
 import Data from './data';
+import inserter from './inserter';
 
 //Create a new router.
 let router = express.Router();
+
+let i = new inserter();
 
 let data = new Data();
 let google = new Google();

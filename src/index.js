@@ -3,8 +3,10 @@ import morgan from 'morgan';
 import fs from 'fs';
 import path from 'path';
 const app = express();
+
 const SERVER_PORT = 1337;
 const router = express.Router();
+
 
 // create a write stream (in append mode)
 let accessLogStream = fs.createWriteStream(path.join(__dirname, '/logs/access.log'), {
@@ -19,9 +21,10 @@ app.use(morgan('combined', {
     }
 }));
 
-app.use(function (req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+//Setup control
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
     next();
 });
 
@@ -34,5 +37,5 @@ app.use('/api', router);
 
 // start the express server.
 app.listen(SERVER_PORT, () => {
-    console.log("Server started on port: " + SERVER_PORT);
+    console.log('Server started on port: ' + SERVER_PORT);
 });

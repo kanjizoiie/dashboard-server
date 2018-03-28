@@ -38,7 +38,6 @@ class Lights {
         axios.get('https://www.meethue.com/api/nupnp').then((response) => {
             try {
                 classthis.bridgeIP = response.data[0].internalipaddress;
-                console.log(this.bridgeIP);
             }
             catch (except) {
                 classthis.bridgeFound = false;
@@ -91,7 +90,6 @@ class Lights {
         if(this.bridgeFound) {
             axios.put('http://' + this.bridgeIP + '/api/' + this.username + '/lights/' + light + '/state', putObject)
             .then((resp) => {
-                console.log(resp);
                 ret = true;
             })
             .catch((reason) => {
