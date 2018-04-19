@@ -2,8 +2,23 @@
 
 This is a dashboard that will show near realtime data.
 
+## Api-endpoint
+This is what provides the api for the gui to fetch data from. \
+There is a lot of paths to choose from i will list some of them here below.
+### Data
+* */api/data/server/:id* 
+* */api/data/server/:id/graphs* 
+* */api/data/news/* 
+* */api/data/news/channel* 
+* */api/data/status/* 
+* */api/data/* 
+### Lights
+* */api/light/* 
+* */api/light/:id/green* 
+* */api/light/:id/yellow* 
+* */api/light/:id/red*
 ## How do you add servers?
-1. You will need a **SQLLite3** client to access the database at this time. 
+1. You will need a **SQLite3** client to access the database at this time. 
     > **NOTE** I recommend https://sqlitestudio.pl/index.rvt?act=download for the database access.
 1. Then you will have to search open and search for a file called **database.sqlite** which resides in the folder *src/database/*
 1. Open the table called **servers**
@@ -21,7 +36,7 @@ This is a dashboard that will show near realtime data.
 
 
 ## How do you remove servers?
-1. You will need a **SQLLite3** client to access the database at this time. 
+1. You will need a **SQLite3** client to access the database at this time. 
     > **NOTE** I recommend https://sqlitestudio.pl/index.rvt?act=download for the database access.
 1. Then you will have to search open and search for a file called **database.sqlite** which resides in the folder *src/database/*
 1. Open the table called **servers**

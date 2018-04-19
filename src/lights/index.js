@@ -1,6 +1,6 @@
 import express from 'express';
 import Lights from './lights';
-let hue = require('../json/hue.json');
+let hue = require('../json/hueUser.json');
 let lightConfig = require('../json/lightConfig.json');
 
 let router = express.Router();
